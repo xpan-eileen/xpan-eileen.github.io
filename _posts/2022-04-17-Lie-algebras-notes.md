@@ -1,6 +1,6 @@
 # Lie algebras
 
-*Disclaimer: This set of notes are based on the 2021 undergrad lecture series taught by Dr Adam Thomas (Warwick); the main textbook is Erdmann & Wildon's [Introduction to Lie algebras](https://link.springer.com/book/10.1007/1-84628-490-2). There are places where things are incomplete and left as placeholders. 
+*Disclaimer: This set of notes are based on the 2021 undergrad lecture series taught by Dr Adam Thomas (Warwick); the main textbook is Erdmann & Wildon's [Introduction to Lie algebras](https://link.springer.com/book/10.1007/1-84628-490-2). There are places where things are incomplete and left as placeholders.* 
 
 # Engel's theorem
 
