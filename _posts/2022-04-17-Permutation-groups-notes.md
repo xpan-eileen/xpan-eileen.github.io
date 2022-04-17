@@ -14,7 +14,7 @@ mathjax: true
 
 ## Wreath product
 
-### Definition
+## Definition
 
 Let $\Gamma$ be a set, and write $\mathrm{Fun}(\Gamma, H) = \{f : \Gamma \to H\}$, that is, the set of all functions from $\Gamma$ to a group $H$. We see that $\mathrm{Fun}(\Gamma, H)$ forms a group under the pointwise product given by
 
