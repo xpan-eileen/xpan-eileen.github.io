@@ -1,5 +1,6 @@
 # Lie algebras
 
+*Disclaimer: There are places where things are incomplete and left as placeholders.*
 
 # Engel's theorem
 
