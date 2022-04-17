@@ -876,7 +876,7 @@ Then $\|\langle \beta, \alpha \| = \frac{2 \|(\beta, \alpha)\|}{(\alpha, \alpha)
 
 Moreover, $(\alpha, \beta) = \sqrt{(\alpha, \alpha)(\beta, \beta)}\cos\theta.$
 
-[Untitled](https://www.notion.so/c9ea8bbbb55648ffa4465ed344c138ab)
+[Roots and angles](https://www.notion.so/c9ea8bbbb55648ffa4465ed344c138ab)
 
 ## Lemma 17.0.4
 
