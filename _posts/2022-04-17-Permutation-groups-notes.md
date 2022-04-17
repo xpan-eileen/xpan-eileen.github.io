@@ -18,9 +18,9 @@ mathjax: true
 
 Let $\Gamma$ be a set, and write $\mathrm{Fun}(\Gamma, H) = \{f : \Gamma \to H\}$, that is, the set of all functions from $\Gamma$ to a group $H$. We see that $\mathrm{Fun}(\Gamma, H)$ forms a group under the pointwise product given by
 
-$$
+\[
 (fg)(\gamma) = f(\gamma)g(\gamma),\ \forall \gamma \in \Gamma, f, g \in \mathrm{Fun}(\Gamma, H).
-$$
+\]
 
 If $\Gamma = \{1, 2, \dots, k\}$, then $\mathrm{Fun}(\Gamma, H) \cong H^k$ with $f \mapsto (f(1), f(2), \dots, f(k))$ the isomorphism. Let $G$ be a group acting on $\Gamma$, then $G$ acts on $\mathrm{Fun}(\Gamma, H)$ via
 
