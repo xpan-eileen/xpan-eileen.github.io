@@ -16,13 +16,13 @@
 
 ## => Site Settings
 ##############################
-text_skin: default # "default" (default), "dark", "forest", "ocean", "chocolate", "orange"
+text_skin: chocolate # "default" (default), "dark", "forest", "ocean", "chocolate", "orange"
 highlight_theme: default # "default" (default), "tomorrow", "tomorrow-night", "tomorrow-night-eighties", "tomorrow-night-blue", "tomorrow-night-bright"
 url     : # the base hostname & protocol for your site e.g. https://www.someone.com
 baseurl : # does not include hostname
-title   : Your Site Title
+title   : X. Eileen Pan
 description: > # this means to ignore newlines until "Language & timezone"
-  Your Site Description
+  Hi there! I am Eileen and I am a PhD student in pure mathematics with a focus in algebra, in particular group theory.
 
 
 ## => Language and Timezone
