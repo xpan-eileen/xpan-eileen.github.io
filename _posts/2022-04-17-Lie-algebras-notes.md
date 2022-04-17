@@ -1,6 +1,11 @@
 # Lie algebras
 
-*Disclaimer: There are places where things are incomplete and left as placeholders.*
+- Assignment questions
+
+    [Assignment1.pdf](Lie%20algebr%20291c6/Assignment1.pdf)
+
+    [Assignment 2.pdf](Lie%20algebr%20291c6/Assignment_2.pdf)
+
 
 # Engel's theorem
 
@@ -12,7 +17,7 @@
 
 Let $V$ be a vector space and $L$ a subalternstes of $\mathrm{gl}(V)$. If $x \in L$ is nilpotent, then it is ad-nilpotent.
 
-*Proof.* Since $x$ is nilpotent, there exists an $m \in \mathbb{N}$ such that $x^m = 0$ (def). Let $y \in L$ and consider $\mathrm{ad}(x)^{2m}(y) = [x, [x, [\dots, [x, y]] \dots]$. Compute this and check (by induction) that it equals 
+*Proof.* Since $x$ is nilpotent, there exists an $m \in \mathbb{N}$ such that $x^m = 0$ (def). Let $y \in L$ and consider $\mathrm{ad}(x)^{2m}(y) = [x, [x, [\dots, [x, y]] \dots]$. Compute this and check (by induction) that it equals
 
 $$
 \sum_{i = 0}^{2m} c_i x^i y x^{2m - i}.
@@ -22,7 +27,7 @@ In particular, this equals $0$ since if $i \le m - 1$ then $2m - i > m$ and $x^i
 
 ## Proposition
 
-Let $V$ be a vector space, $L$ a subalgebra of $\mathrm{gl}(V)$ such that every element $x \in L$ is nilpotent. Then there exists a vector $v \in V \backslash\{0\}$ such that $x(v) = 0$ for all $x \in L$. 
+Let $V$ be a vector space, $L$ a subalgebra of $\mathrm{gl}(V)$ such that every element $x \in L$ is nilpotent. Then there exists a vector $v \in V \backslash\{0\}$ such that $x(v) = 0$ for all $x \in L$.
 
 *Proof.* Induction on dimension of $L$. If dim($L$) is 1 then $L = \langle y \rangle$ for some $y \in L \backslash \{0\}$. Since $y \neq 0$ is nilpotent, there is some $m > 0$ such that $y^m = 0$ and $y^{m-1} \neq 0$. So $\exists w \in V$ such that $y^{m-1}(w) \neq 0$. Let $v = y^{m-1}$, then $v$ is an eigenvalue of $y$. If $x \in L$, then $x = a_x y$ for some $a_x \in \mathbb{F}$ and so $x(v) = a_xy(v) = 0$ (base case).
 
@@ -30,19 +35,19 @@ Now suppose that $L$ has dim $n > 1$ and that the result holds for all Lie algeb
 
 Define a map $f \colon M \to \mathrm{gl}(L/M)$ by $f(m)(y + M) = [m, y] + M$ for all $m \in M, y \in L$. (Check this is well-defined!)
 
-Moreover, bilinearity of Lie bracket implies that $f(m) \in \mathrm{gl}(L/M)$ and $f$ is a linear map. 
+Moreover, bilinearity of Lie bracket implies that $f(m) \in \mathrm{gl}(L/M)$ and $f$ is a linear map.
 
-Using the Jacobi identity: 
+Using the Jacobi identity:
 
 $$
 [f(a), f(b)](y + M) = f(a)f(b) (y+m) - f(b)f(a)(y + M) = ([a, [b, y]] + M - [b, [a, y]] + M) = ([a, [b, y]] + [b, [y, a]]) + M = -([y, [a, b]] + M) = [[a, b], y] + M = f([a, b])(y + M).
 $$
 
-So $f$ is a Lie algebra homomorphism. Then $f(M)$ is a Lie subalgebra of $\mathrm{gl}(L/M)$ and $\dim f(M) \le \dim M < \dim L = n.$ Since for all $m \in M \le L$ , $m \in L$, we have that $m$ is nilpotent and ad-nilpotent by the previous lemma. That is, there is some $k \in \mathbb{N}$ such that $\mathrm{ad}(m)^k = 0$. Now we want to verify that $f(m)$ is also nilpotent: $f(m)^k(y + M) = [m, [m, \dots, [m, y]]\dots] + M = \mathrm{ad}(m)^k(y) + M = M$. Therefore, $f(m)$ is nilpotent (as a linear map $L/M \to L/M$. So apply the inductive hypothesis to $f(M) \le \mathrm{gl}(L/M)$  there exists some $z \in L\backslash M$ such that $f(m)(z + M) = M$ for all $m \in M$. 
+So $f$ is a Lie algebra homomorphism. Then $f(M)$ is a Lie subalgebra of $\mathrm{gl}(L/M)$ and $\dim f(M) \le \dim M < \dim L = n.$ Since for all $m \in M \le L$ , $m \in L$, we have that $m$ is nilpotent and ad-nilpotent by the previous lemma. That is, there is some $k \in \mathbb{N}$ such that $\mathrm{ad}(m)^k = 0$. Now we want to verify that $f(m)$ is also nilpotent: $f(m)^k(y + M) = [m, [m, \dots, [m, y]]\dots] + M = \mathrm{ad}(m)^k(y) + M = M$. Therefore, $f(m)$ is nilpotent (as a linear map $L/M \to L/M$. So apply the inductive hypothesis to $f(M) \le \mathrm{gl}(L/M)$  there exists some $z \in L\backslash M$ such that $f(m)(z + M) = M$ for all $m \in M$.
 
-By construction, $f(m)(z + M) = [m, z] + M$, so it follows that $[m, z] \in M$ for all $m \in M$. Next consider $L_0 = \langle M, z \rangle_{\mathbb{F}} = M \oplus \langle z \rangle_{\mathbb{F}}$ since $z \notin M$. ($L_0$ has one more dimension than M.) That is, if $a, b \in L_0$, then $a = m_a + \alpha z$, $b = m_b + \beta z$ for some $m_a, m_b \in M, \alpha, \beta \in \mathbb{F}$. Thus, $[a, b] = [m_a, m_b] + \alpha[z, m_b] + \beta[m_a, z] \in M$ since every summand is in $M$. Thus $L_0$ is a subalgebra of $L$, which properly contains $M$. By maximality of $M$, it follows that $L_0 = L$. So since $[m_a + \alpha z, m] \in M$ for all $m \in M$, we see that $M$ is an ideal of $L$ and has dimension one lower than $L$. 
+By construction, $f(m)(z + M) = [m, z] + M$, so it follows that $[m, z] \in M$ for all $m \in M$. Next consider $L_0 = \langle M, z \rangle_{\mathbb{F}} = M \oplus \langle z \rangle_{\mathbb{F}}$ since $z \notin M$. ($L_0$ has one more dimension than M.) That is, if $a, b \in L_0$, then $a = m_a + \alpha z$, $b = m_b + \beta z$ for some $m_a, m_b \in M, \alpha, \beta \in \mathbb{F}$. Thus, $[a, b] = [m_a, m_b] + \alpha[z, m_b] + \beta[m_a, z] \in M$ since every summand is in $M$. Thus $L_0$ is a subalgebra of $L$, which properly contains $M$. By maximality of $M$, it follows that $L_0 = L$. So since $[m_a + \alpha z, m] \in M$ for all $m \in M$, we see that $M$ is an ideal of $L$ and has dimension one lower than $L$.
 
-We can now apply the inductive hypothesis to $M \le \mathrm{gl}(V)$. Then there exists a nonzero vector $w \in V$ such that $m(v) = 0$ for all $m \in M$. Consider the 0-weight space, 
+We can now apply the inductive hypothesis to $M \le \mathrm{gl}(V)$. Then there exists a nonzero vector $w \in V$ such that $m(v) = 0$ for all $m \in M$. Consider the 0-weight space,
 
 $$
 W = \{u \in V \mid m(u) = 0 \ \forall m \in M\}.
@@ -52,35 +57,35 @@ Then $W \neq \{0\}$ since $w \in W$. In particular, this implies that $W$ is $L$
 
 ## Theorem (Engle's theorem for subalgebras of $\mathrm{gl}(V)$
 
-Let $L$ be a subalgebra of $\mathrm{gl}(V)$. Suppose that every elt of $L$ is nilpotent. Then there exists a basis of $V$ such that the matrix of every elt of $L$ is strictly upper triangular wrt this basis. In particular, $L$ is nilpotent. 
+Let $L$ be a subalgebra of $\mathrm{gl}(V)$. Suppose that every elt of $L$ is nilpotent. Then there exists a basis of $V$ such that the matrix of every elt of $L$ is strictly upper triangular wrt this basis. In particular, $L$ is nilpotent.
 
-*Proof.*  Suppose we have a such a basis $\mathcal{B}$ with $|\mathcal{B}| = n$. Then $L$ is isomorphic to a subalgebra of $\mathrm{u}_n(\mathbb{F})$ and the fact that $\mathrm{u}_n(\mathbb{F})$ is nilpotent implies that $L$ is nilpotent. 
+*Proof.*  Suppose we have a such a basis $\mathcal{B}$ with $|\mathcal{B}| = n$. Then $L$ is isomorphic to a subalgebra of $\mathrm{u}_n(\mathbb{F})$ and the fact that $\mathrm{u}_n(\mathbb{F})$ is nilpotent implies that $L$ is nilpotent.
 
-Induction on dimension of $L$: 
+Induction on dimension of $L$:
 
-$n = 1$: then $\mathrm{gl}(V) = \mathbb{F}$. The only nilpotent element of is $0$, trivially true. 
+$n = 1$: then $\mathrm{gl}(V) = \mathbb{F}$. The only nilpotent element of is $0$, trivially true.
 
-$n \ge 2$: Suppose the statemnet holds for all dimensions up to $n - 1$, want to show that it also holds for $n$. From previous Lemmas, we know that there exists some nonzero vector $v \in V$ such that $x(v)  = 0 \ \forall x \in L$. Let $U = \langle v \rangle$ be the subspace generated over $\mathbb{F}$ and write $\overline{V} = V/U$ for the quotient space. For $x \in L$ define $\overline{x} \colon \overline{V} \to \overline{V}$ by $\overline{x}(w + U) = x(w) + U$. We check that this is a well-defined linear map, that is, $\overline{x} \in \mathrm{gl}(V)$. 
+$n \ge 2$: Suppose the statemnet holds for all dimensions up to $n - 1$, want to show that it also holds for $n$. From previous Lemmas, we know that there exists some nonzero vector $v \in V$ such that $x(v)  = 0 \ \forall x \in L$. Let $U = \langle v \rangle$ be the subspace generated over $\mathbb{F}$ and write $\overline{V} = V/U$ for the quotient space. For $x \in L$ define $\overline{x} \colon \overline{V} \to \overline{V}$ by $\overline{x}(w + U) = x(w) + U$. We check that this is a well-defined linear map, that is, $\overline{x} \in \mathrm{gl}(V)$.
 
-This gives rise to a Lie algebra homomorphism 
+This gives rise to a Lie algebra homomorphism
 
 $$
 \varphi \colon L \to \mathrm{gl}(\overline{V}), x \mapsto \overline{x}.
 $$
 
-Also, $\varphi(L)$ is a subalgebra of $\mathrm{gl}(\overline{V})$. 
+Also, $\varphi(L)$ is a subalgebra of $\mathrm{gl}(\overline{V})$.
 
-If $x^m = 0$ for some $m \in \mathbb{N}$ then $\overline{x}^m = 0$. This shows that every element of $\varphi(L)$ is nilpotent and since $\dim(\overline{V}) < \dim (V)$, we apply the inductive hypothesis to $\overline{V}$. In particular, it follows that there exists a basis $\{v_2 + U, v_3 + U, \dots, v_n + U\}$ of $\overline{V} = V/U$ such that $\overline{x}$ is represented by a a strictly upper triangular matrix for all $x \in L$. 
+If $x^m = 0$ for some $m \in \mathbb{N}$ then $\overline{x}^m = 0$. This shows that every element of $\varphi(L)$ is nilpotent and since $\dim(\overline{V}) < \dim (V)$, we apply the inductive hypothesis to $\overline{V}$. In particular, it follows that there exists a basis $\{v_2 + U, v_3 + U, \dots, v_n + U\}$ of $\overline{V} = V/U$ such that $\overline{x}$ is represented by a a strictly upper triangular matrix for all $x \in L$.
 
-Define $\mathcal{B} = \{v_1 = v, v_2, \dots, v_n\}$. Then this is a basis of $V$ and by construction $x(v_1) = 0, x(v_2) = a_{1, 2}v_1$ for some $a_{1, 2} \in \mathbb{F}$, $x(v_3) = a_{1, 3}v_1 + a_{2, 3}v_2$, $\dots$, with all $a_{i,j} \in \mathbb{F}$. 
+Define $\mathcal{B} = \{v_1 = v, v_2, \dots, v_n\}$. Then this is a basis of $V$ and by construction $x(v_1) = 0, x(v_2) = a_{1, 2}v_1$ for some $a_{1, 2} \in \mathbb{F}$, $x(v_3) = a_{1, 3}v_1 + a_{2, 3}v_2$, $\dots$, with all $a_{i,j} \in \mathbb{F}$.
 
-Thus the matrix of $x$ wrt $\mathcal{B}$ is strictly upper triangular.  
+Thus the matrix of $x$ wrt $\mathcal{B}$ is strictly upper triangular.
 
 ## Theorem (Engel's theorem, general)
 
 Let $L$ be a Lie algebra. If every $x \in L$ is ad-nilpotent, then $L$ is nilpotent.
 
-*Proof.* Under the adjoint representation $\mathrm{ad} \colon L \to \mathrm{gl}(V)$, we know that $\mathrm{ad}(L) \le \mathrm{gl}(V)$. For all $x \in L$, we have that $\mathrm{ad}(x)$ is nilpotent by hypothesis. By previous theorem, it follows that $\mathrm{ad}(L)$ is nilpotent. Since $\mathrm{ad}(L) \cong L/\ker (\mathrm{ad}) = L/Z(L)$, and $L/Z(L)$ is nilpotent implies that $L$ is nilpotent (given $Z(L)$ is nilpotent). 
+*Proof.* Under the adjoint representation $\mathrm{ad} \colon L \to \mathrm{gl}(V)$, we know that $\mathrm{ad}(L) \le \mathrm{gl}(V)$. For all $x \in L$, we have that $\mathrm{ad}(x)$ is nilpotent by hypothesis. By previous theorem, it follows that $\mathrm{ad}(L)$ is nilpotent. Since $\mathrm{ad}(L) \cong L/\ker (\mathrm{ad}) = L/Z(L)$, and $L/Z(L)$ is nilpotent implies that $L$ is nilpotent (given $Z(L)$ is nilpotent).
 
 ---
 
@@ -94,23 +99,23 @@ Let $L = \mathrm{b}_n(\mathbb{C})$, then $[L, L] = \mathrm{u}_n(\mathbb{C})$.
 
 Let $V$ be a vector space over $\mathbb{C}$, $L$ a subalgebra of $\mathrm{gl}(V)$. If $L$ is solvable then there exists a nonzero vector $v \in V$ such that for every $x \in  L$ $\exists \lambda(x) \in \mathbb{C}$ such that $x(v) = \lambda(x)v$, that is, $v$ is an eigenvector of $L$.
 
-*Proof.* Induction on $n = \dim L$. 
+*Proof.* Induction on $n = \dim L$.
 
-$n = 1$: $\mathbb{F} = \mathbb{C}$ so we have $L = \langle y \rangle_{\mathbb{C}}$ for some $y$, and there exists nonzero $v \in V$ such that $y(v)  = \lambda(v)$ for $\lambda \in \mathbb{C}$ since $\mathbb{C}$ is algebraically closed. Since $L$ is generated by $y$, for any $x \in L$ we can write $x = a_x y$ and so $x(v) = a_x y (v) = (a_x \lambda)v$. Rewriting $\lambda(x) = a_x \lambda$, we are done. 
+$n = 1$: $\mathbb{F} = \mathbb{C}$ so we have $L = \langle y \rangle_{\mathbb{C}}$ for some $y$, and there exists nonzero $v \in V$ such that $y(v)  = \lambda(v)$ for $\lambda \in \mathbb{C}$ since $\mathbb{C}$ is algebraically closed. Since $L$ is generated by $y$, for any $x \in L$ we can write $x = a_x y$ and so $x(v) = a_x y (v) = (a_x \lambda)v$. Rewriting $\lambda(x) = a_x \lambda$, we are done.
 
-$n \ge 2$: now suppose the statement holds true up to $n - 1$. Since $L$ is solvable, we know that $[L, L] \neq L$. Let $M$ be a vector subspace of $L$ with $\dim M = \dim L - 1$ and $[L, L] \subseteq M$. Then $M$ is an ideal of $L$.Moreover, $L = M \oplus \langle z \rangle$ for some $z \in L \backslash M$. Since $M$ is a subalgebra of $L$ it is also solvable, and we may apply the inductive hypothesis. That is, there exists some nonzero $w \in V$ such that $w$ is an eigenvector for $M$. Thus we have a weight $\lambda \colon M \to \mathbb{C}$ with weight space $V_\lambda$ and $w \in V_\lambda$. Since $V_\lambda$ is $L$-invariant, we have that $V_\lambda$ is $z$-invariant. Since $V_\lambda$ is a complex vector space, $z \in \mathrm{gl}(V_\lambda)$ has an eigenvector. Say $v \in V_\lambda$ is an eigenvector of $z$ with eigenvalue $\alpha$. Then we show that $v$ is an eigenvector  of $L$: 
+$n \ge 2$: now suppose the statement holds true up to $n - 1$. Since $L$ is solvable, we know that $[L, L] \neq L$. Let $M$ be a vector subspace of $L$ with $\dim M = \dim L - 1$ and $[L, L] \subseteq M$. Then $M$ is an ideal of $L$.Moreover, $L = M \oplus \langle z \rangle$ for some $z \in L \backslash M$. Since $M$ is a subalgebra of $L$ it is also solvable, and we may apply the inductive hypothesis. That is, there exists some nonzero $w \in V$ such that $w$ is an eigenvector for $M$. Thus we have a weight $\lambda \colon M \to \mathbb{C}$ with weight space $V_\lambda$ and $w \in V_\lambda$. Since $V_\lambda$ is $L$-invariant, we have that $V_\lambda$ is $z$-invariant. Since $V_\lambda$ is a complex vector space, $z \in \mathrm{gl}(V_\lambda)$ has an eigenvector. Say $v \in V_\lambda$ is an eigenvector of $z$ with eigenvalue $\alpha$. Then we show that $v$ is an eigenvector  of $L$:
 
 For $x \in L$, we can write $x  = m + az$ for some $m \in M, a \in \mathbb{C}$. Also
 
 $$
-x(v) = m(v) + az(v) = \lambda(m)v + a\alpha v = (\lambda(m) + a \alpha)v, 
+x(v) = m(v) + az(v) = \lambda(m)v + a\alpha v = (\lambda(m) + a \alpha)v,
 $$
 
  which shows that $v$ is an eigenvector of $x$. Since $x$ is arbitrary, it follows that $v$ is an eigenvector of $L$.                                                        $\square$
 
 ## Theorem (Lie's theorem, requiring characteristic being zero)
 
-Let $V$ be a vector space over $\mathbb{F} = \mathbb{C}$ and $L$ a solvable subalgebra of $\mathrm{gl}(V)$. Then there exists a basis $\mathcal{B}$ such that wrt $\mathcal{B}$ the matrix of every element of $L$ is upper triangular. That is, $L$ embeds into $\mathrm{b}_n(\mathbb{C})$. 
+Let $V$ be a vector space over $\mathbb{F} = \mathbb{C}$ and $L$ a solvable subalgebra of $\mathrm{gl}(V)$. Then there exists a basis $\mathcal{B}$ such that wrt $\mathcal{B}$ the matrix of every element of $L$ is upper triangular. That is, $L$ embeds into $\mathrm{b}_n(\mathbb{C})$.
 
 ## Corollary
 
@@ -122,7 +127,7 @@ $[\mathrm{b}_n, \mathrm{b}_n] = \mathrm{u}_n$.
 
 ## Corollary
 
-Let $L$ be a Lie algebra over $\mathbb{F} = \mathbb{C}$. Then if $L$ is solvable if and only if $[L, L]$ is nilpotent. 
+Let $L$ be a Lie algebra over $\mathbb{F} = \mathbb{C}$. Then if $L$ is solvable if and only if $[L, L]$ is nilpotent.
 
 ---
 
@@ -168,7 +173,7 @@ If $L$ is complex Lie algebra, then $L$ is solvable if and only if $\kappa(x, y)
 
 ## Definition
 
-If $\tau$ is a symmetric bilinear form, then $\tau$ is called nondegenerate if 
+If $\tau$ is a symmetric bilinear form, then $\tau$ is called nondegenerate if
 
 $$
 V^\perp = \{x \in V\colon \tau(x, v) = 0 \ \forall v \in V\} = 0
@@ -184,7 +189,7 @@ $\tau$ is nondegenerate $\iff$$\det([\tau]_{\mathcal{B}}) \neq 0$
 
 ## Lemma
 
-If $\tau$ is a nondegenerate symmetric bilinear form, then for $W \subseteq V$ we have 
+If $\tau$ is a nondegenerate symmetric bilinear form, then for $W \subseteq V$ we have
 
 $$
 \dim(V) = \dim(W) +\dim(W^{\perp}).
@@ -200,13 +205,13 @@ Let $L$ be a complex Lie algebra and $I$ an ideal of $L$. Then $I^{\perp} = \{x 
 
 The complex Lie algebra $L$ is semisimple if and only if the Killing form $\kappa$ of $L$ is nondegenerate.
 
-*Proof.* Suppose for contradiction that $\kappa$ is degenerate. Then $L^{\perp} \neq 0$. 
+*Proof.* Suppose for contradiction that $\kappa$ is degenerate. Then $L^{\perp} \neq 0$.
 
 We know that $L^{\perp}$ is an ideal of $L$. Let $x \in L^{\perp}, y \in [L^{\perp}, L^{\perp}]$, then $\kappa(x, y) = 0$ by definition of $L^{\perp}$.
 
 Since the Killing form on $L^{\perp}$ is the restriction of the Killing form of $L$, it follows that $\kappa_{L^{\perp}}(x, y) = 0$ and Cartan's first criterion applies—$L^{\perp}$ is solvable. Hence, $L^{\perp}$ is contained in $\mathrm{Rad}(L)$ and is nontrivial. Thus $L$ is not semisimple, a contradiction.
 
-Now assume $L$ is not semisimple, we show that $\kappa$ is degenerate. We know that $\mathrm{Rad}(L) \neq 0.$ Moreover, this implies that $L$ has a nonzero abelian ideal, say $I_0 \trianglelefteq L$. Let $i \in I_0$, $x, y \in L$, then 
+Now assume $L$ is not semisimple, we show that $\kappa$ is degenerate. We know that $\mathrm{Rad}(L) \neq 0.$ Moreover, this implies that $L$ has a nonzero abelian ideal, say $I_0 \trianglelefteq L$. Let $i \in I_0$, $x, y \in L$, then
 
 $$
 \begin{aligned} &\mathrm{ad}(i) (\mathrm{ad}(x) (\mathrm{ad}(i)(y)))\\ = &[i, [x, [i, y]]]\\ = & 0.\end{aligned}
@@ -221,13 +226,13 @@ Let $L$ be a complex semisimple Lie algebra, and $I \trianglelefteq L$. Then
 1. $I \cap I^{\perp} = 0$.
 2. $L = I \oplus I^{\perp}$ as vector space.
 3. $I$ and $I^{\perp}$ are complex semisimple Lie algebras.
-    
+
     *Proof.* (2) follows (1) since by Cartan's second criterion we know that $\kappa$ is nondegenerate on $L$.
-    
+
      (1). $I$ and $I^{\perp}$ are ideals, so their intersection $I \cap I^{\perp}$ is also an ideal. We claim that for $x, y \in I \cap I^{\perp}$ we have $\kappa(x, y)= 0$. To see this, recall that the restriction of $\kappa$ to $I \cap I^{\perp}$ is the same as $\kappa_{I \cap I^{\perp}}$. Thus, $\kappa _{I \cap I^{\perp}} = 0$. Cartan's first C says that $I \cap I^{\perp}$ is solvable, so $I \cap I^{\perp} \subseteq \mathrm{Rad}(L) = \{0\}.$ In particular, $I\cap I^{\perp} = 0$.
-    
+
     (3) Follows from Cartan's second C.    $\square$
-    
+
 
 ---
 
@@ -237,7 +242,7 @@ Let $L$ be a complex semisimple Lie algebra, and $I \trianglelefteq L$. Then
 
 ## Theorem (Primary Decomposition theorem)
 
-Let $x \in \mathrm{gl}(V)$ with minimal polynomial 
+Let $x \in \mathrm{gl}(V)$ with minimal polynomial
 
 $$
 (x - \lambda_1)^{a_1}\cdots (x - \lambda_r)^{a_r},
@@ -255,11 +260,11 @@ $x_1, \dots, x_n \in \mathrm{gl}(V)$ are simultaneously diagonalisable $\iff$ $x
 
 ## Definition
 
-Let $H$ be a subalgebra of $L$ such that 
+Let $H$ be a subalgebra of $L$ such that
 
 1. $H$ is abelian.
 2. Every element in $H$ is semisimple. (i.e. $\mathrm{ad}(x)$ is diagonalisable for all $x \in H$.)
-3. $H$ is maximal with respect to 1 & 2. 
+3. $H$ is maximal with respect to 1 & 2.
 
 Then $H$ is called a Cartan subalgebra of $L$.
 
@@ -267,15 +272,15 @@ Then $H$ is called a Cartan subalgebra of $L$.
 
 $L$, a semisimple complex Lie algebra, contains a nonzero Cartan subalgebra.
 
-*Proof.* Let $x \in L$ and $x = d + n$ be its abstract Jordan decomposition. If $d = 0$ then $x$ is ad-nilpotent. If this is true $\forall x \in L$, then Engel's theorem says that $L$ is nilpotent, contradicting the fact that $L$ is semisimple. 
+*Proof.* Let $x \in L$ and $x = d + n$ be its abstract Jordan decomposition. If $d = 0$ then $x$ is ad-nilpotent. If this is true $\forall x \in L$, then Engel's theorem says that $L$ is nilpotent, contradicting the fact that $L$ is semisimple.
 
 Thus, there exists $x$ with $d \neq 0$ and so $0 \neq d \in L$. Let $h$ be such a semisimple, nonzero element. Then $\langle h \rangle$ is an abelian subalgebra consisting of entirely semisimple elements.  Q: What about maximality? A: Take the maximal abelian subalgebra containing only semisimple elements and $\langle h \rangle$, then it is a Cartan subalgebra as desired. $\square$
 
 ## Lemma 13.0.3
 
-Let $y \in L$ and $A \subseteq L$ a subalgebra. Then $C_L(y), C_L(A)$ are subalgebras of $L$. 
+Let $y \in L$ and $A \subseteq L$ a subalgebra. Then $C_L(y), C_L(A)$ are subalgebras of $L$.
 
-*Proof.* $C_L(y) = \ker(\mathrm{ad}(y))$ so a subspace of $L$. We now check that it is closed under the Lie bracket: let $a, b \in C_L(y)$, 
+*Proof.* $C_L(y) = \ker(\mathrm{ad}(y))$ so a subspace of $L$. We now check that it is closed under the Lie bracket: let $a, b \in C_L(y)$,
 
 $$
 \begin{aligned} [y, [a, b]] = & -[b, [y, a]] - [a, [b, y]] \\= &-[b, 0] - [a, 0]\\ = &0.\end{aligned}
@@ -285,7 +290,7 @@ Since $[y, a] = [b, y] = 0$. This shows that $[a, b] \in C_L(y)$. Similarly, $C_
 
 ## Lemma 13.0.4
 
-If $H$ is a Cartan subalgebra, and $h \in H$. Then $H \subseteq C_L(H) \subseteq C_L(h)$. 
+If $H$ is a Cartan subalgebra, and $h \in H$. Then $H \subseteq C_L(H) \subseteq C_L(h)$.
 
 ### Goal of this section: to prove that $H = C_L(H)$.
 
@@ -293,27 +298,27 @@ If $H$ is a Cartan subalgebra, and $h \in H$. Then $H \subseteq C_L(H) \subseteq
 
 Let $H$ be a Cartan subalgebra, $h_0 \in H$ such that $\dim C_L(h_0) \le \dim C_L(h)$ for all $h \in H$. Then $C_L(h_0) = C_L(H)$.
 
-*Proof.* Suppose $a \in Z(C_L(h_0))$ for all $a \in H$. Then $[H, C_L(h_0)] = 0$ (in other words, $C_L(h_0)$ centralises $H$) and so $C_L(h_0) \subseteq C_L(H)$. But the previous lemma gives the converse containment, the claimed result immediately follows. 
+*Proof.* Suppose $a \in Z(C_L(h_0))$ for all $a \in H$. Then $[H, C_L(h_0)] = 0$ (in other words, $C_L(h_0)$ centralises $H$) and so $C_L(h_0) \subseteq C_L(H)$. But the previous lemma gives the converse containment, the claimed result immediately follows.
 
-We now show that $H \subseteq Z(C_L(h_0))$. For a contradiction, we assume that there exists $a \in H$ such that $a \notin Z(C_L(h_0))$. Consider the intersection $C_L(a) \cap C_L(h_0)$: choose $e_1, \dots, e_k$ a basis of this intersection; these are simultaneous eigenvectors for $a$ and $h_0$ since the elements of the intersection are diagonalisable and pairwise commute. 
+We now show that $H \subseteq Z(C_L(h_0))$. For a contradiction, we assume that there exists $a \in H$ such that $a \notin Z(C_L(h_0))$. Consider the intersection $C_L(a) \cap C_L(h_0)$: choose $e_1, \dots, e_k$ a basis of this intersection; these are simultaneous eigenvectors for $a$ and $h_0$ since the elements of the intersection are diagonalisable and pairwise commute.
 
 Extend this basis to $e_1, \dots, e_k, f_1, \dots, f_l$, basis of $C_L(a)$. These are simultaneous eigenvectors for $a$ and $h_0$.
 
 Extend this basis to $e_1, \dots, e_k, g_1, \dots, g_r$, basis of $C_L(h_0)$. These are simultaneous eigenvectors for $a$ and $h_0$.
 
-Extend this basis to $e_1, \dots, e_k, f_1, \dots, f_l, g_1, \dots, g_r$, basis of $C_L(a) + C_L(h_0)$. These are simultaneous eigenvectors for $a$ and $h_0$. In particular, we have 
+Extend this basis to $e_1, \dots, e_k, f_1, \dots, f_l, g_1, \dots, g_r$, basis of $C_L(a) + C_L(h_0)$. These are simultaneous eigenvectors for $a$ and $h_0$. In particular, we have
 
 $$
 \begin{aligned} &[a, e_i] = 0 = [h_0, e_i]\ \forall i \\ &[a, f_i] = 0 \neq \alpha_i f_i = [h_0, f_i] \ \forall i\\ &[a, g_i] = \beta_i g_i \neq 0 = [h_0, g_i] \ \forall i.\end{aligned}
 $$
 
-Now make last extension: let 
+Now make last extension: let
 
 $$
 e_1, \dots, e_k, f_1, \dots, f_l, g_1, \dots, g_r, v_1, \dots, v_s
 $$
 
-be basis of $L$, where $v_1, \dots, v_s$ are simultaneous eigenvectors for $a$ and $h_0$ and 
+be basis of $L$, where $v_1, \dots, v_s$ are simultaneous eigenvectors for $a$ and $h_0$ and
 
 $$
 [a, v_i] = \gamma_i v_i \neq 0 \neq \delta_i v_i = [h_0, v_i].
@@ -341,19 +346,19 @@ $$
 
 Since $H$ is abelian and consists only of semisimple elements, there exists a basis of common eigenvector for $H$ (shorthand for $\mathrm{ad}(H)$).
 
-If $v$ is such a common e-vector, then there exists a weight $\alpha \in \mathrm{ad}(H)^* \cong H^*$ such that $L_\alpha$, the corresponding weight space, is nonzero. That is, 
+If $v$ is such a common e-vector, then there exists a weight $\alpha \in \mathrm{ad}(H)^* \cong H^*$ such that $L_\alpha$, the corresponding weight space, is nonzero. That is,
 
 $$
 L_\alpha = \{x \in L \colon [h, x] = \alpha(h)x \quad \forall h \in H \} \neq \{0\}.
 $$
 
- In particular, 
+ In particular,
 
 $$
 L_0 = \{x \in L \colon [h, x] = 0 \quad \forall h \in H \} = C_L(H) \neq \{0\},
 $$
 
-as it contains $H$. 
+as it contains $H$.
 
 ## Definition
 
@@ -365,7 +370,7 @@ Call this the *set of roots* of $L$ relative to $H$; $\alpha \in \Phi$ is called
 
 ## Theorem
 
-If $L$ is finite-dimensional, then $|\Phi|$ is finite and 
+If $L$ is finite-dimensional, then $|\Phi|$ is finite and
 
 $$
 L = L_0 \oplus \bigoplus_{\alpha \in \Phi} L_\alpha.
@@ -377,34 +382,34 @@ Recap: from now on always assume $L$ to be a semisimple complex Lie algebra; $H^
 
 ## Lemma 14.2.1
 
-For $\alpha, \beta \in H^*$, then 
+For $\alpha, \beta \in H^*$, then
 
 1. $[L_\alpha, L_\beta] \subseteq L_{\alpha + \beta}$
 2. If $\alpha + \beta \neq 0$ then $\kappa(L_\alpha, L_\beta) = 0$
 3. $L_0 \cap L_0^{\perp} = \{0\},$ thus $\kappa|_{L_0}$ is nondegenerate
-    
-    *Proof.* 1.  For $h \in H$, we have 
-    
+
+    *Proof.* 1.  For $h \in H$, we have
+
     $$
     \begin{aligned} \mathrm{ad}(h) ([x, y]) &= [h, [x, y]] = -[y, [x, h]] - [x, [y, h]]\\ &= -[y, [\alpha(h)x] + [x, \beta(h)y]\\ &= \alpha(h)[x, y] + \beta(h)[x, y]\\ &= (\alpha + \beta)(h)[x, y]. \qquad \square \end{aligned}
     $$
-    
+
     2. Let $\kappa$ be the Killing form on $L$. Suppose that $\alpha + \beta \neq 0$. Then for each $h \in H$,
-    
+
     $$
     \begin{aligned} \alpha(h) \kappa(x, y) = & \kappa(\alpha(h)x, y) = \kappa([h, x], y)\\ =& -\kappa([x, h], y) = -\kappa(x, [h, y]) = -\kappa(x, \beta(h)y)\\ =& -\beta(h)\kappa(x, y).  \end{aligned}
     $$
-    
-    Since $\alpha + \beta \neq 0$, there exists some $h_0 \in H$ with $(\alpha + \beta)(h_0) \neq 0$, forcing $\kappa(x, y) = 0.\qquad \square$  
-    
-    3. Assume that $0\neq a \in L_0 \cap L_o^{\perp}$ so $\kappa(a, t) = 0$ for all $t \in L_0$. Let $v \in L$ then $v = v_0 + \sum_{\alpha \in \Phi} v_\alpha$, where $v_0 \in L_0, v_\alpha \in L_\alpha$. So 
-    
+
+    Since $\alpha + \beta \neq 0$, there exists some $h_0 \in H$ with $(\alpha + \beta)(h_0) \neq 0$, forcing $\kappa(x, y) = 0.\qquad \square$
+
+    3. Assume that $0\neq a \in L_0 \cap L_o^{\perp}$ so $\kappa(a, t) = 0$ for all $t \in L_0$. Let $v \in L$ then $v = v_0 + \sum_{\alpha \in \Phi} v_\alpha$, where $v_0 \in L_0, v_\alpha \in L_\alpha$. So
+
     $$
     \begin{aligned} \kappa(a, v) & = \kappa(a, v_0 + \sum_{\alpha \in \Phi} v_\alpha)\\ & = \kappa(a, v_0) + \sum_{\alpha \in \Phi} \kappa(a, v_\alpha) \\ & = 0.\end{aligned}
     $$
-    
+
     It follows that $a \in L^{\perp}$, which is a contradiction since $L$ is semisimple and $L^{\perp} = 0$. $\square$
-    
+
 
  **
 
@@ -415,7 +420,7 @@ For $\alpha, \beta \in H^*$, then
 
 </aside>
 
-*Proof.* 
+*Proof.*
 
 ---
 
@@ -425,7 +430,7 @@ For $\alpha, \beta \in H^*$, then
 
 For each $0 \neq h \in H$, there exists $\alpha \in \Phi$ with $\alpha(h_0) = 0$ for all $\alpha \in \Phi$.
 
-*Proof.*  Suppose not. Then there exists some $\alpha \in \Phi$ such that $\alpha(h_0) = 0$ for all $\alpha \in \Phi$. 
+*Proof.*  Suppose not. Then there exists some $\alpha \in \Phi$ such that $\alpha(h_0) = 0$ for all $\alpha \in \Phi$.
 
 ## Corollary14.3.2
 
@@ -433,37 +438,37 @@ The set of roots span the dual space $H^*$.
 
 ## Lemma 14.3.3
 
-If $\alpha \in \Phi$, then $-\alpha \in \Phi$. 
+If $\alpha \in \Phi$, then $-\alpha \in \Phi$.
 
-*Proof.* Otherwise, for all $\beta \in \Phi \cup \{0\}$, we have $\kappa(L_\alpha, L_\beta) = 0$. Thus, $L_\alpha \in L^{\perp} = \{0\}$, so $L_\alpha = \{0\}$, a contradiction. 
+*Proof.* Otherwise, for all $\beta \in \Phi \cup \{0\}$, we have $\kappa(L_\alpha, L_\beta) = 0$. Thus, $L_\alpha \in L^{\perp} = \{0\}$, so $L_\alpha = \{0\}$, a contradiction.
 
 ## Lemma 14.3.4
 
-For all $\alpha \in \Phi$, there exists $t_\alpha \in H \backslash \{0\}$ such that $\forall x \in L_\alpha$, $y \in L_{-\alpha}$, 
+For all $\alpha \in \Phi$, there exists $t_\alpha \in H \backslash \{0\}$ such that $\forall x \in L_\alpha$, $y \in L_{-\alpha}$,
 
 $$
 [x, y] = \kappa(x, y)t_\alpha.
 $$
 
-Moreover, 
+Moreover,
 
 $$
 \kappa(t_\alpha, h) = \alpha(h) \quad \forall h \in H.
 $$
 
- *Proof.* 
+ *Proof.*
 
 Let $x \in L_\alpha, y \in L_{-\alpha}$. Then $[x, y ] \in L_{\alpha + (-\alpha)} = L_0 = C_L(H) = H$.
 
 In particular, $\kappa$ restricted to $H$ is nondegenerate and $\kappa|_H$ induces an isomorphism between $H$ and $H^*$,
 
 $$
- h \mapsto \kappa|_H (h, \_).
+ h \mapsto \kappa|_H (h, -).
 $$
 
-Since $\alpha \in \Phi \subseteq H^*$, there exists $t_\alpha \in H \backslash \{0\}$ such that $t_\alpha \mapsto \kappa(t_\alpha, \_) = \alpha(\_)$.
+Since $\alpha \in \Phi \subseteq H^*$, there exists $t_\alpha \in H \backslash \{0\}$ such that $t_\alpha \mapsto \kappa(t_\alpha, -) = \alpha(-)$.
 
-Now, 
+Now,
 
 $$
 \begin{aligned} \kappa(h, [x, y]) & = \kappa([h, x], y) = \kappa(\alpha(h)x, y)\\ & = \alpha(h)\kappa(x, y) = \kappa(t_\alpha, h)\kappa(x, y)\\ & = \kappa(\kappa(x, y)t_\alpha, h)\\ & = \kappa(h, \kappa(x, y)t_\alpha). \end{aligned}
@@ -475,7 +480,7 @@ So $\kappa(h, [x, y] - \kappa(x, y)t_\alpha) = 0 \ \forall h \in H$. As $h, [x, 
 
 If $\alpha \in \Phi$, then $[L_\alpha, L_{-\alpha}] = \langle t_\alpha \rangle_{\mathbb{C}}$.
 
-*Proof.* Lemma 14.3.4 implies that  $[L_\alpha, L_{-\alpha}] \leq \langle t_\alpha \rangle_{\mathbb{C}}$. It remains to check that $[x, y] \neq 0$ for some $x \in L_\alpha, y \in L_{-\alpha}$. Suppose such $x, y$ do not exist. Then $\kappa(x, y) = 0 \ \forall x \in L_\alpha, y \in L_{-\alpha}$ and $\kappa(L_\alpha, L_\beta) = 0$ for all $\beta \in \Phi \cup \{0\}$, thus $L_ \alpha \subseteq L^{\perp} = \{0\}$, a contradiction.          $\square$      
+*Proof.* Lemma 14.3.4 implies that  $[L_\alpha, L_{-\alpha}] \leq \langle t_\alpha \rangle_{\mathbb{C}}$. It remains to check that $[x, y] \neq 0$ for some $x \in L_\alpha, y \in L_{-\alpha}$. Suppose such $x, y$ do not exist. Then $\kappa(x, y) = 0 \ \forall x \in L_\alpha, y \in L_{-\alpha}$ and $\kappa(L_\alpha, L_\beta) = 0$ for all $\beta \in \Phi \cup \{0\}$, thus $L_ \alpha \subseteq L^{\perp} = \{0\}$, a contradiction.          $\square$
 
 ## Definition
 
@@ -489,21 +494,21 @@ For $\alpha \in \Phi$, then $\alpha(t_\alpha) \neq 0$.
 
 *Proof.* Suppose not. Then $[t_\alpha, x] = \alpha(t_\alpha)x = 0$  and $[t_\alpha, y] = \alpha(t_\alpha)y = 0$. So $t_\alpha \in Z(M_\alpha)$. It follows that $M_\alpha$ is solvable, in fact nilpotent (why? We know that this implies that $[M_\alpha, M_\alpha] \subseteq Z(M_\alpha)$)
 
-By Lie's theorem there exists a basis of $L$ such that $\mathrm{ad}_L(M_\alpha)$ is upper triangular. Since $t_\alpha \in [M_\alpha, M_\alpha]$, we have $\mathrm{ad}(t_\alpha)$ is strictly upper triangular. 
+By Lie's theorem there exists a basis of $L$ such that $\mathrm{ad}_L(M_\alpha)$ is upper triangular. Since $t_\alpha \in [M_\alpha, M_\alpha]$, we have $\mathrm{ad}(t_\alpha)$ is strictly upper triangular.
 
 Thus $\mathrm{ad}(t_\alpha)$ is nilpotent. But $t_\alpha \in H$ so $\mathrm{ad}(t_\alpha)$ is semisimple, which forces that $t_\alpha = 0$, contradiction. $\square$
 
-So $\alpha(t_\alpha) \neq 0$ and $\kappa(t_\alpha, t_\alpha) = \alpha(t_\alpha) \neq 0$ by Lemma 14.3.4. 
+So $\alpha(t_\alpha) \neq 0$ and $\kappa(t_\alpha, t_\alpha) = \alpha(t_\alpha) \neq 0$ by Lemma 14.3.4.
 
 Let $e_\alpha = x,\;\; h_\alpha = \frac{2}{\kappa(t_\alpha, t_\alpha)} t_\alpha,\;\;f_\alpha = \frac{2}{\kappa(t_\alpha, t_\alpha)\kappa(x,y)}y$.
 
 Then $M_\alpha = \langle e_\alpha, h_\alpha, f_\alpha \rangle$.
 
-We can check that $M_\alpha$ is a subalgebra of $\mathrm{sl}(\mathbb{C})$ by showing that they have the same structure constants. 
+We can check that $M_\alpha$ is a subalgebra of $\mathrm{sl}(\mathbb{C})$ by showing that they have the same structure constants.
 
 ## Lemma 14.3.7
 
-For all $\alpha \in \Phi$, $M_\alpha \cong \mathrm{sl}_2(\mathbb{C})$. 
+For all $\alpha \in \Phi$, $M_\alpha \cong \mathrm{sl}_2(\mathbb{C})$.
 
 ## Lemma 14.3.8
 
@@ -523,7 +528,7 @@ $\dim V_d = d + 1$.
 
 Now make $V_d$ an $\mathrm{sl}_2{\mathbb{C}}$-module by $\phi \colon \mathrm{sl}_2(\mathbb{C})\to \mathrm{gl}(V_d)$ via
 
- 
+
 
 $$
 \begin{aligned} & \phi(e) = X\frac{\partial}{\partial Y};\\ &\phi(f) = Y\frac{\partial}{\partial X};\\ &\phi(h) = X\frac{\partial}{\partial X} - Y\frac{\partial}{\partial Y}. \end{aligned}
@@ -535,19 +540,19 @@ $V_d$ is an $\mathrm{sl}_2{\mathbb{C}}$-module.
 
 ## Theorem (Weyl's theorem)
 
-A non-zero module for a semisimple complex Lie algebra is completely reducible. 
+A non-zero module for a semisimple complex Lie algebra is completely reducible.
 
 ## Lemma 15.0.3
 
 For any two basis vectors $v_1 = X^a Y^{d-a}$and $v_2 = X^bY^{d - b}$, there exists $\ell \in \mathrm{sl}_2(\mathbb{C})$ such that $\ell \cdot v_1 = v_2$.
 
-*Proof.* It suffices to show that we can get from 
+*Proof.* It suffices to show that we can get from
 
-$X^d \to X^{d-1}Y \to \cdots \to Y^d$ and 
+$X^d \to X^{d-1}Y \to \cdots \to Y^d$ and
 
 $Y^d \to Y^{d - 1}X \to \cdots \to X^d$.
 
-We have precisely that 
+We have precisely that
 
 $$
 f \colon X^d \mapsto dX^{d-1}Y\\ \frac{1}{d}f \colon X^d \mapsto X^{d-1}Y\\\frac{1}{d-a}f \colon X^{d-a}Y^a \mapsto X^{d-a-a}Y^{a+1}.
@@ -563,17 +568,17 @@ $V_d$ is irreducible.
 
 ## Lemma 15.0.5
 
-Let $V$ be an $\mathrm{sl}_2(\mathbb{C})$-module and $v \in V$ an eigenvector for $h$ with eigenvalue $\lambda$. Then 
+Let $V$ be an $\mathrm{sl}_2(\mathbb{C})$-module and $v \in V$ an eigenvector for $h$ with eigenvalue $\lambda$. Then
 
 1. Either $e \cdot v = 0$ or $e \cdot v$ is an eigenvector of $h$ with eigenvalue $\lambda+2$.
 2. Either $f \cdot v = 0$ or $f \cdot v$ is an eigenvector of $h$ with eigenvalue $\lambda - 2$.
-    
-    *Proof.* 
-    
+
+    *Proof.*
+
     $h\cdot(e \cdot v) = e \cdot (h \cdot v) + [h, e]\cdot v = e\cdot (\lambda v) + 2e\cdot v = (\lambda + 2)e \cdot v.$
-    
+
     Similar for $f$.
-    
+
 
 ## Lemma 15.0.6
 
@@ -581,11 +586,11 @@ $V$ contains an eigenvector $w$ of $h$ such that .
 
 1. $e\cdot w = 0$.
 2. $f^d \cdot w \neq 0$, $f^{d+1} \cdot w =0$ for some $d \ge 0$.
-    
+
     *Proof.* We know that $h$ has some eigenvector on $V$ such that $h \cdot v = \lambda v$, with $v \neq 0$ over $\mathbb{C}$. Consider $v, e\cdot v, e^2 \cdot v, \dots$
-    
+
     If they are all non-zero then they all have distinct eigenvalues, but this implies that there are infinitely many linearly independent vectors in $V$. Absurd. So there must exist some $k \ge 0$ such that $e^k \cdot v \neq 0$, $e^{k+1} \cdot v = 0$. Consider $w, f \cdot w, f^2 \cdot w, \dots$ Same logic gives that there exists some $d \ge 0$ such that $f^d \cdot w \neq 0$ while $f^{d+1} \cdot w = 0$. $\square$
-    
+
 
 ## Theorem 15.0.7
 
@@ -601,7 +606,7 @@ Note that $X^d, f\cdot X^d, \dots$ is a basis of $V_d$.
 
 We now prove the claim: let $U = \langle w, f \cdot w, \dots, f^d \cdot w \rangle$, where $w, f \cdot w, \dots, f^d \cdot w$ are linearly independent (they have different eigenvalues under $h$).
 
-By construction, $U$ is invariant under $f$ and $h$. It suffices to check that $U$ is invariant under $e$, then it is a nonzero submodule of $V$, thus $V$ since $V$ is irreducible. 
+By construction, $U$ is invariant under $f$ and $h$. It suffices to check that $U$ is invariant under $e$, then it is a nonzero submodule of $V$, thus $V$ since $V$ is irreducible.
 
 We show this by induction:
 
@@ -613,7 +618,7 @@ Inductive deduction: Then $e \cdot (f^{k+1} \cdot w) = e \cdot f \cdot (f^k \cdo
 
 Lastly, we show that $\lambda = d$.
 
-Consider the matrix representation of $h$ acting on $V$ with respect to the basis $w, f\cdot w, \dots, f^d \cdot w$. These are all eigenvectors for $h$, so the matrix re of $h$-action is diagonal and by 15.0.5 it is 
+Consider the matrix representation of $h$ acting on $V$ with respect to the basis $w, f\cdot w, \dots, f^d \cdot w$. These are all eigenvectors for $h$, so the matrix re of $h$-action is diagonal and by 15.0.5 it is
 
 $$
 \begin{pmatrix} \lambda & 0 & 0 & 0 & \dots & 0\\ 0 &\lambda - 2 & 0 & 0 & \dots & 0\\ 0 & 0 & \lambda - 4 & 0  &\dots & 0 \\ \vdots & \ddots &\ddots & \ddots & \ddots & \vdots \\ 0 & \dots & \dots & \dots & \dots & \lambda - 2d\end{pmatrix}.
@@ -627,13 +632,13 @@ But $[e, f] = h$, so the matrix rep of $h$ is a commutator of matrices, which is
 
 # The importance of sl_2(C) for semisimple complex Lie algebras
 
-Throughout this chapter $L$ is a semisimple complex Lie algebra, $H$ is a Cartan subalgebra of $L$ and $\Phi$ is the set of roots of $L$ relative to $H$. Recall that 
+Throughout this chapter $L$ is a semisimple complex Lie algebra, $H$ is a Cartan subalgebra of $L$ and $\Phi$ is the set of roots of $L$ relative to $H$. Recall that
 
 $$
 L = H \oplus \bigoplus_{\alpha \in \Phi} L_\alpha,\\M_\alpha = \langle e_\alpha, h_\alpha, f_\alpha \rangle \cong \mathrm{sl}_2(\mathbb{C})
 $$
 
- for each root $\alpha \in \Phi$. 
+ for each root $\alpha \in \Phi$.
 
 We know that $L$ is an $L$-module under the adjoint action ($x \cdot y = [x, y] = \mathrm{ad}_x(y)$ for all $x, y \in L$). Since $M_\alpha$ is a subalgebra, we can study $L$ as an $M_\alpha$-module.
 
@@ -661,13 +666,13 @@ $$
 
 are all in $U_\alpha$
 
-Let $c\alpha \in \Phi$. Then 
+Let $c\alpha \in \Phi$. Then
 
 $$
 [L_{c\alpha}, e_\alpha] \subseteq L_{(c+1)\alpha}, \\ [L_{c\alpha}, f_\alpha] \subseteq L_{(c-1_\alpha},\\ [L_{c\alpha}] \subseteq L_{c\alpha}.
 $$
 
-All in $U_\alpha$. Thus $U_\alpha$ is $M_\alpha$-invariant as desired.  
+All in $U_\alpha$. Thus $U_\alpha$ is $M_\alpha$-invariant as desired.
 
 What can we say about this module?
 
@@ -678,17 +683,17 @@ Also, $M_\alpha \cap H_\alpha \subseteq H$, and $M_\alpha \cap H = \langle h_\al
 
 As a result, $H_\alpha \oplus M_\alpha$ is a submodule of $U_\alpha$ and $H \subseteq H_\alpha \oplus M_\alpha$.
 
-Now we can apply Weyl's theorem and there exists a submodule $W$ of $M_\alpha$ such that $U_\alpha = (H_\alpha \oplus M_\alpha) \oplus W$. 
+Now we can apply Weyl's theorem and there exists a submodule $W$ of $M_\alpha$ such that $U_\alpha = (H_\alpha \oplus M_\alpha) \oplus W$.
 
 We want to show that $W= 0$ is true only if $c = \pm 1$.
 
 Suppose for contradiction that $c \neq \pm 1$ and $V$ is an irreducible submodule of $W$. Then $V \cong V_s$ for some $s \ge 0$.
 
-If $s$ is even the $V$ contains an $h_\alpha$-eigenvector with eigenvalue $0$. (Why? We know that eigenvalues of $V_s$ are $\{s, s-2, \dots, -s)$.) So $\alpha(v) = 0$ and $v \in H_\alpha$. But $H_\alpha \cap V_s = \{0\}$, so $H_\alpha \cap W =\{0\}$, a contradiction.                        
+If $s$ is even the $V$ contains an $h_\alpha$-eigenvector with eigenvalue $0$. (Why? We know that eigenvalues of $V_s$ are $\{s, s-2, \dots, -s)$.) So $\alpha(v) = 0$ and $v \in H_\alpha$. But $H_\alpha \cap V_s = \{0\}$, so $H_\alpha \cap W =\{0\}$, a contradiction.
 
 In fact, suppose $2\alpha \in \Phi$, then $h_\alpha$ has $2\alpha(h_\alpha) = 4$ as an eigenvalue. Bur all eigenvalues of $h_\alpha$ on $H_\alpha \oplus M_\alpha$ are $0$ and $\pm 2$ (Why? By construction, $H_\alpha$ is the kernel of $\alpha$, thus $h_\alpha$ on $H_\alpha$ has zero-eigenvalues; by the first box, eigenvalues of $h_\alpha$ on $M_\alpha$ are $\pm2$.) This forces that $W$ contains an irreducible submodule $V_s$ with $s$ being even, contradiction.
 
-Lastly, suppose that $V\cong V_s$ where $s$ is odd. Then $h_\alpha$ has an eigenvector with eigenvalue $1$, and $\alpha(h_\alpha)= 2$. This implies that $\frac12 \alpha$ is a root. But $\alpha = 2(\frac12\alpha)$ is also a root, contradicting the previous paragraph.      $\square$                 
+Lastly, suppose that $V\cong V_s$ where $s$ is odd. Then $h_\alpha$ has an eigenvector with eigenvalue $1$, and $\alpha(h_\alpha)= 2$. This implies that $\frac12 \alpha$ is a root. But $\alpha = 2(\frac12\alpha)$ is also a root, contradicting the previous paragraph.      $\square$
 
 ## Corollary 16.0.3
 
@@ -704,48 +709,48 @@ Since $U_\alpha = H \oplus L_\alpha \oplus L_{-\alpha}$, it follows that $\dim L
 
 ## Definition
 
-For $\beta \in \Phi \cup \{0\}$, then we define the $\alpha$-root string through $\beta$ to be 
+For $\beta \in \Phi \cup \{0\}$, then we define the $\alpha$-root string through $\beta$ to be
 
-$S = \bigoplus_c L_{\beta + c\alpha}$ where the sum is over $c \in \mathbb{C}$ such that $\beta + c\alpha \in \Phi$. 
+$S = \bigoplus_c L_{\beta + c\alpha}$ where the sum is over $c \in \mathbb{C}$ such that $\beta + c\alpha \in \Phi$.
 
 Since $[L_\alpha, L_\beta] \subseteq L_{\alpha + \beta}$, $S$ is an $M_\alpha$-submodule of $L$.
 
 ## Lemma 16.0.5
 
-Let $\alpha, \beta \in \Phi$ with $\alpha \neq \pm \beta$. Then 
+Let $\alpha, \beta \in \Phi$ with $\alpha \neq \pm \beta$. Then
 
 1. $\beta(h_\alpha) \in \mathbb{Z}$.
 2. there exist $q, r \ge 0$ integers such that $\beta + i \in \Phi \iff i \in \mathbb{Z}$ such that $-r \le i \le q$. Moreover, $r - q = \beta(h_\alpha)$.
 3. $\beta - \beta(h_\alpha)\alpha \in \Phi$.
-    
+
     *Proof.*  Since $\beta(h_\alpha)$ is the eigenvalue of $h_\alpha$ acting on $L_\beta$, it must be an integer by applying Weyl's theorem + classification of  irreducible $\mathrm{sl}_2(\mathbb{C})$.
-    
-    Similarly, we can understand the $h_\alpha$-eigenvalues on the $\alpha$-string through $\beta$: In particular, we know all eigenspaces of $h_\alpha$ is one-dimensional by Corollary 16.0.4 and 
-    
+
+    Similarly, we can understand the $h_\alpha$-eigenvalues on the $\alpha$-string through $\beta$: In particular, we know all eigenspaces of $h_\alpha$ is one-dimensional by Corollary 16.0.4 and
+
     $$
     (\beta + i \alpha)(h_\alpha)=\beta(h_\alpha) + 2i \in \mathbb{Z}.
     $$
-    
-    Since all eigenspaces are one-dimensional, all eigenvalues are distinct on the $\alpha$-string through $\beta$. So depending on $\beta(h_\alpha)$, all eigenvalues are either all even or odd. Weyl's theorem says that any irreducible submodule of the $\alpha$-string, denied by $S$, is isomorphic to $V_s$ for some $s \ge 0$. So if the eigenvalues of $h_\alpha$ are all even, then $s$ is even. Suppose $S$ has more than one irreducible submodules, then there exist at least two $2$-dimensional eigenspaces with eigenvalue $0$. But the eigenvalues are all distinct, so this cannot happen. Similarly, since there cannot be two eigenspaces at eigenvalue $1$, if $S$ contains an irreducible submodule $V_s$ with $s$ being odd, then $V_s$ has to also be unique. It follows that $S$ is in fact irreducible itself (for otherwise it would contain at least two irreducible submodules).  
-    
+
+    Since all eigenspaces are one-dimensional, all eigenvalues are distinct on the $\alpha$-string through $\beta$. So depending on $\beta(h_\alpha)$, all eigenvalues are either all even or odd. Weyl's theorem says that any irreducible submodule of the $\alpha$-string, denied by $S$, is isomorphic to $V_s$ for some $s \ge 0$. So if the eigenvalues of $h_\alpha$ are all even, then $s$ is even. Suppose $S$ has more than one irreducible submodules, then there exist at least two $2$-dimensional eigenspaces with eigenvalue $0$. But the eigenvalues are all distinct, so this cannot happen. Similarly, since there cannot be two eigenspaces at eigenvalue $1$, if $S$ contains an irreducible submodule $V_s$ with $s$ being odd, then $V_s$ has to also be unique. It follows that $S$ is in fact irreducible itself (for otherwise it would contain at least two irreducible submodules).
+
     The Classification implies that $S \cong V_d$ for some $d \ge 0$, and the eigenvalues for $h_\alpha$ are $d, d- 2, \dots, -d$.
-    
-    Equating the expression, we can define $r, q$ by 
-    
+
+    Equating the expression, we can define $r, q$ by
+
     $$
     \begin{aligned} d &= \beta(h_\alpha) + 2q (*)\\ -d &= \beta(h_\alpha) - 2r (**) \end{aligned},
     $$
-    
-    then adding $(*)$ and $(**)$ yields $0 = 2\beta(h_\alpha) + 2q - 2r \implies r - q = \beta(h_\alpha).$ 
-    
+
+    then adding $(*)$ and $(**)$ yields $0 = 2\beta(h_\alpha) + 2q - 2r \implies r - q = \beta(h_\alpha).$
+
      Lastly, $\beta - \beta(h_\alpha)\alpha = \beta - (r - q)\alpha$ from the equality above, which is in $\Phi$.  $\square$
-    
+
 
 ## Lemma 16.0.6
 
  For $\alpha, \beta \in \Phi$, we have $\kappa(h_\alpha, h_\beta) \in \mathbb{Z}$ and $\kappa(t_\alpha, t_\beta) \in \mathbb{Q}$.
 
-*Proof.* $\kappa(h_\alpha, h_\beta) = \mathrm{tr}(\mathrm{ad}(h_\alpha)\mathrm{ad}(h_\alpha)) = \sum_{\gamma \in \Phi} \gamma(h_\alpha)\gamma(h_\beta) \in \mathbb{Z},$ since $L = H \oplus \bigoplus_{\gamma \in \Phi} L_\gamma$ and both $\mathrm{ad}(h_\alpha)$ and $\mathrm{ad}(h_\beta)$ are diagonalisable + eigenvalues of $\mathrm{ad}(h_\alpha)$ are $0$ on $H$, but $\gamma(h_\alpha)$ on $L_\gamma$ (similar for $\mathrm{ad}(h_\beta)$). 
+*Proof.* $\kappa(h_\alpha, h_\beta) = \mathrm{tr}(\mathrm{ad}(h_\alpha)\mathrm{ad}(h_\alpha)) = \sum_{\gamma \in \Phi} \gamma(h_\alpha)\gamma(h_\beta) \in \mathbb{Z},$ since $L = H \oplus \bigoplus_{\gamma \in \Phi} L_\gamma$ and both $\mathrm{ad}(h_\alpha)$ and $\mathrm{ad}(h_\beta)$ are diagonalisable + eigenvalues of $\mathrm{ad}(h_\alpha)$ are $0$ on $H$, but $\gamma(h_\alpha)$ on $L_\gamma$ (similar for $\mathrm{ad}(h_\beta)$).
 
 On the other hand, $\kappa(t_\alpha, t_\beta) = \kappa(\frac{\kappa(t_\alpha, t_\alpha)}{2}h_\alpha, \frac{\kappa(t_\beta, t_\beta)}{2}h_\beta) = \frac14 \kappa(t_\alpha, t_\alpha) \kappa(h_\alpha, h_\beta)\quad (\dagger).$
 
@@ -755,13 +760,13 @@ It yields that $\kappa(t_\alpha, t_\alpha) = \frac14 \kappa(t_\alpha, t_\alpha) 
 
 # Roots of $L$
 
-Recall that there exists an explicit isomorphism $H \to H^*$ by $h \mapsto \kappa(h, \_)$. So for every $\alpha \in \Phi \subseteq H^*$, there exists $t_\alpha \in H$ such that $\alpha(\_) = \kappa(t_\alpha, \_)$.
+Recall that there exists an explicit isomorphism $H \to H^*$ by $h \mapsto \kappa(h, -)$. So for every $\alpha \in \Phi \subseteq H^*$, there exists $t_\alpha \in H$ such that $\alpha(-) = \kappa(t_\alpha, -)$.
 
-Generalise: for $\phi \in H^*$, let $t_\phi$ be the unique element in $H$ such that $t_\phi \mapsto \kappa(t_\phi, \_) = \phi(\_)$. 
+Generalise: for $\phi \in H^*$, let $t_\phi$ be the unique element in $H$ such that $t_\phi \mapsto \kappa(t_\phi, -) = \phi(-)$.
 
-Now define $(\_, \_) \colon H^* \times H^* \to \mathbb{C}$ by $(\theta, \phi) = \kappa(t_\theta, t_\phi)$ for all $\theta, \phi \in H^*$.
+Now define $(-, -) \colon H^* \times H^* \to \mathbb{C}$ by $(\theta, \phi) = \kappa(t_\theta, t_\phi)$ for all $\theta, \phi \in H^*$.
 
-Since $\kappa$ is symmetric bilinear, so is $(\_, \_)$.
+Since $\kappa$ is symmetric bilinear, so is $(-, -)$.
 
 And $(\alpha, \beta) = \kappa(t_\alpha, t_\beta) \in \mathbb{Q} \ \forall \alpha, \beta \in \Phi$ (by 16.0.6).
 
@@ -781,9 +786,9 @@ $$
 
  Since $\kappa_h$ is nondegenerate, so this matrix (above) has nonzero determinant (with $t_{\alpha_1}, \dots, t_{\alpha_\ell}$being a basis for $H$). Thus there exist unique $c_1, \dots, c_\ell$ that satisfy this matrix equation and $c_1, \dots, c_\ell \in \mathbb{Q}$.
 
-So $\beta = c_1 \alpha_1 + \cdots + c_\ell \alpha_\ell \in \mathbb{R}[\alpha_1, \dots, \alpha_\ell]$. Consider $E =  \mathbb{R}[\alpha_1, \dots, \alpha_\ell] \subseteq H^*$ as a real subspace. We know that $\Phi \subseteq E$ and we may restrict $(\_, \_)$ to $E$, giving $(\_, \_) \colon E \times E \to \mathbb{R}$ a symmetric bilinear form. 
+So $\beta = c_1 \alpha_1 + \cdots + c_\ell \alpha_\ell \in \mathbb{R}[\alpha_1, \dots, \alpha_\ell]$. Consider $E =  \mathbb{R}[\alpha_1, \dots, \alpha_\ell] \subseteq H^*$ as a real subspace. We know that $\Phi \subseteq E$ and we may restrict $(-, -)$ to $E$, giving $(-, -) \colon E \times E \to \mathbb{R}$ a symmetric bilinear form.
 
-Let $\theta \in E$, then there exists $t_\theta \in H$ such that 
+Let $\theta \in E$, then there exists $t_\theta \in H$ such that
 
 $$
 (\theta, \theta) = \kappa(t_\theta, t_\theta) = \mathrm{tr}(\mathrm{ad}(t_\theta)^2) \\= \sum_{\gamma \in \Phi} \gamma(t_\theta)^2 = \sum_{\gamma \in \Phi} \kappa(t_\gamma, t_\theta)^2 \\= \sum_{\gamma \in \Phi}(\gamma, \theta)^2 \ \ (**).
@@ -806,21 +811,21 @@ Let $L$ be a semisimple complex Lie algebra with roots $\Phi$. Then
 
 # Root systems
 
-Let $E$ be a finite dimensional real vector space and $(\_, \_)\colon E \times E \to \mathbb{R}$ be an inner product, namely, a symmetric bilinear positive definite form $(x, x) \ge 0$ and $(x, x) = 0 \iff x = 0.$
+Let $E$ be a finite dimensional real vector space and $(-, -)\colon E \times E \to \mathbb{R}$ be an inner product, namely, a symmetric bilinear positive definite form $(x, x) \ge 0$ and $(x, x) = 0 \iff x = 0.$
 
 For every $0\neq v \in E$ we define an orthogonal transformation $\sigma_v \colon E \to E$ the reflection in the hyperplane perpendicular to $v$: $\sigma_v(x) = x - \frac{2(x, v)}{(v, v)}v$.
 
-Define for all $u, v \in E$: $\langle u, v\rangle = \frac{2(u, v)}{(v, v)}$. Note that $\langle \_, \_ \rangle$ is linear in the first argument but not in the second. 
+Define for all $u, v \in E$: $\langle u, v\rangle = \frac{2(u, v)}{(v, v)}$. Note that $\langle -, - \rangle$ is linear in the first argument but not in the second.
 
 ## Lemma
 
-For $x, y \in E$ we have 
+For $x, y \in E$ we have
 
 $$
 \left(\sigma_v(x), \sigma_v(y) \right) = (x, y)\ \ \forall 0 \neq v \in E.
 $$
 
- 
+
 
 ## Definition
 
@@ -837,13 +842,13 @@ Key example: $L$ semisimple complex Lie algebra, $H$ a Cartan subalgebra, then $
 
 ## Lemma 17.0.2
 
-For $\alpha, \beta \in R$ with $\alpha \neq \pm \beta$, 
+For $\alpha, \beta \in R$ with $\alpha \neq \pm \beta$,
 
 $$
 \langle \alpha, \beta \rangle  \langle \beta, \alpha \rangle \in \{0, 1, 2, 3\}.
 $$
 
-*Proof.*   By 4, $\langle \alpha, \beta \rangle, \langle \beta, \alpha \rangle \in \mathbb{Z}$. Recall that for $u, v \in E$, 
+*Proof.*   By 4, $\langle \alpha, \beta \rangle, \langle \beta, \alpha \rangle \in \mathbb{Z}$. Recall that for $u, v \in E$,
 
 $$
 (u, v)^2 = (u, u)(v, v)\cos^2\theta,
@@ -855,15 +860,15 @@ Then $\langle \alpha, \beta \rangle \langle \beta, \alpha \rangle = \frac{2(\alp
 
 ## Corollary 17.0.3
 
-Let $\alpha, \beta \in R$. Then 
+Let $\alpha, \beta \in R$. Then
 
 1. $\langle \alpha, \beta \rangle = 0 \iff \alpha$ is perpendicular to $\beta.$
 2. $\langle \alpha, \beta \rangle > 0 \iff \langle \beta, \alpha \rangle > 0.$
-    
+
     *Proof.* 1 follows from 17.0.2.
-    
+
     2. $\langle \alpha, \beta \rangle = \frac{2(\alpha, \beta)}{(\beta, \beta)} \ge 0 \iff \langle \alpha, \beta \rangle \ge 0$ since $(\alpha, \beta) = (\beta, \alpha)$.  $\square$
-    
+
 
 Let $\alpha, \beta \in R$. WLOG assume $(\beta, \beta) \ge (\alpha, \alpha)$.
 
@@ -879,9 +884,9 @@ For $\alpha, \beta \in R$ such that $(\beta, \beta) \ge (\alpha, \alpha)$, $\the
 
 1. if $\pi/2 < \theta < \pi$, then $\alpha + \beta \in R$.
 2. if $0 < \theta < \pi/2$, then $\alpha - \beta \in R$.
-    
+
     *Proof.* By 3. $\sigma_\beta(\alpha) = \alpha - \langle \alpha, \beta \rangle \beta \in R$. If $\pi/2 < \theta < \pi$, then $\langle \alpha, \beta \rangle = -1 \implies \alpha + \beta \in R$; if $0 < \theta < \pi/2$, then $\langle \alpha, \beta \rangle = 1 \implies \alpha - \beta \in R$.  $\square$
-    
+
 
 ### Example
 
