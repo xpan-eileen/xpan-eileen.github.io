@@ -1,11 +1,5 @@
 # Lie algebras
 
-- Assignment questions
-    
-    [Assignment1.pdf](Lie%20algebr%20291c6/Assignment1.pdf)
-    
-    [Assignment 2.pdf](Lie%20algebr%20291c6/Assignment_2.pdf)
-    
 
 # Engel's theorem
 
