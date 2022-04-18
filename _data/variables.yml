@@ -1,5 +1,5 @@
 default:
-  text_skin: default
+  text_skin: dark
   highlight_theme: default
   lang: en
   paths:
@@ -7,7 +7,7 @@ default:
     home: /
     archive:  /archive.html
     rss:  /feed.xml
-  mathjax: false
+  mathjax: true
   mathjax_autoNumber: false
   mermaid: false
   chart: false
