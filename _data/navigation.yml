@@ -49,4 +49,4 @@ header:
       fr-LU   : *FR
       tr      : &TR       Hakkında
       # @end locale config
-    url: /about.md
+    url: /about.html
