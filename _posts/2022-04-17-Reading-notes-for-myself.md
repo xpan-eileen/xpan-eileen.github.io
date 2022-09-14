@@ -1,5 +1,6 @@
 ---
 layout: article
+published: false
 title: Reading notes for myself
 tags: notes
 aside:
