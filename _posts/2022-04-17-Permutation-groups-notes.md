@@ -1,5 +1,6 @@
 ---
 layout: article
+published: false
 title: Permutation groups notes
 tags: notes
 aside:
