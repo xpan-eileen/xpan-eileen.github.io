@@ -33,4 +33,7 @@ key: page-other-things
 18. [Miin: Body to Body](https://www.theplace.org.uk/whats-on/collective-cha-jinyeob-miin-body-body), by Collective-A. 25 June, at The Place
 19. The Burnt City, by PunchDrunk. 3 July.
 20. The Burnt City, by PunchDrunk. 24 July.
-21. The Mousetrap, 70th anniversary production. 17 September, at St. Martinjs Theatre
+21. The Mousetrap, 70th anniversary production. 17 September, at St. Martin's Theatre.
+22. [The Apology] (https://www.arcolatheatre.com/whats-on/the-apology-2/), by Kyo Choi, directed by Ria Parry. 24 September, at The Arcola Theatre.
+
+
