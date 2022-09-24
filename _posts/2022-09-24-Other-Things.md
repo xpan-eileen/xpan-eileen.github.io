@@ -34,6 +34,6 @@ key: page-other-things
 19. The Burnt City, by PunchDrunk. 3 July.
 20. The Burnt City, by PunchDrunk. 24 July.
 21. The Mousetrap, 70th anniversary production. 17 September, at St. Martin's Theatre.
-22. [The Apology] (https://www.arcolatheatre.com/whats-on/the-apology-2/), by Kyo Choi, directed by Ria Parry. 24 September, at The Arcola Theatre.
+22. [The Apology](https://www.arcolatheatre.com/whats-on/the-apology-2/), by Kyo Choi, directed by Ria Parry. 24 September, at The Arcola Theatre.
 
 
