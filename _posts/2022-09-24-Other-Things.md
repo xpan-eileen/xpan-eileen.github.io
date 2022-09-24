@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: page
 published: true
 title: Other Things
 tags: journal
