@@ -6,6 +6,9 @@ tags: journal
 aside:
   toc: true
 mathjax: false
+
+key: page-other-things
+
 ---
 
 # 2022 Theatre
