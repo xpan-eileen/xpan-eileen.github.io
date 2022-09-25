@@ -32,7 +32,7 @@ navigation:
   - text: Home
     url: /
   - text: About
-    url: /about/
+    url: href="/about/"
   - text: Archive
     url: /style-guide/
   - text: Tags
