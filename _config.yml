@@ -32,11 +32,11 @@ navigation:
   - text: Home
     url: /
   - text: About
-    url: href="/about/"
+    url: (about.md)
   - text: Archive
-    url: /style-guide/
+    url: 
   - text: Tags
-    url: /tags/
+    url: (tags.md)
 #  - text: Download
 #    url: https://github.com/JustGoodThemes/Scriptor-Jekyll-Theme
 
