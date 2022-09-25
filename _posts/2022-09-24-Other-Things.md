@@ -9,7 +9,7 @@ tags: [logbook, others]
 
 # 2022 Theatre
 
-1. [A Fight Against… (Una Lucha Contra…)](https://royalcourttheatre.com/whats-on/afightagainst/), by ****Pablo Manzi. Translated by William Gregory. 15 January, at Jerwood Theatre Upstairs
+1. [A Fight Against… (Una Lucha Contra…)](https://royalcourttheatre.com/whats-on/afightagainst/), by Pablo Manzi. Translated by William Gregory. 15 January, at Jerwood Theatre Upstairs
 2. [The Glow](https://royalcourttheatre.com/whats-on/theglow/), by Alistair McDowall. 5 February, at Jerwood Theatre Downstairs
 3. [Purple Snowflakes and Witty Wanks](https://royalcourttheatre.com/whats-on/purplesnowflakes/), written and performed by Sarah Hanly. 5 February, at Jerwood Theatre Downstairs
 4. [A Tale of Two Cities](https://www.lostdogdance.co.uk/currentproductions/ataleoftwocities), by Lost Dog. 16 February, at Warwick Arts Centre
