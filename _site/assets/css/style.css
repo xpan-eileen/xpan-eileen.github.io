@@ -130,7 +130,7 @@ html { border: 15px solid #2d72d9; box-sizing: border-box; }
 
 @media only screen and (max-width: 600px) { html { border-width: 5px; font-size: 100%; } }
 
-body { color: #6b747a; -moz-osx-font-smoothing: grayscale; -webkit-font-smoothing: antialiased; line-height: 1.66667; padding-left: 30px; padding-right: 30px; }
+body { color: #6b747a; font-family: "Noto Serif", Georgia, serif; -moz-osx-font-smoothing: grayscale; -webkit-font-smoothing: antialiased; line-height: 1.66667; padding-left: 30px; padding-right: 30px; }
 
 a { color: #2d72d9; text-decoration: none; -webkit-transition: color .3s ease; transition: color .3s ease; }
 
