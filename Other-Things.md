@@ -8,4 +8,4 @@ date: 2022-09-25
 tags: [logs, others]
 ---
 
-[2022](https://xpan-eileen.github.io/2022)
+[2022](/2022/)
