@@ -1,0 +1,26 @@
+# 2022 books
+
+# Nonacademic
+
+1. The vagina monologues (Eve Ensler)
+2. How we learn: why brains are better than any machine… for now (Stainilas Dehaene)
+3. 字母表謎案（大山誠一郎）
+4. Powers of Darkness (Valdimar Ásmundsson, Bram Stoker)
+5. Carmilla (J. Sheridan de Fanu)
+6. Thinking, fast and slow (Daniel Kahneman)
+7. Inseparable (Simone de Beauvoir)
+8. The year of magical thinking (Joan Didion)
+9. There are places in the world where rules are less important than kindness (Carlo Rovelli)
+10. Written in bones (Sue Black)
+11. 動物園（乙一）
+12. Drums in the night (Bertolt Brecht)
+13. In your defence: stories of Life and Law (Sarah Langford)
+14. Sorrow and bliss (Meg Mason)
+15. Against white feminism (Rafia Zakaria)
+16. 餘韻（張愛玲）
+17. Fix the system, not the women (Laura Bates)
+18. I want to die but I want to eat tteokbokki (Baek Se-hee)
+19. Happening (Annie Ernaux)
+20. Simple passion (Annie Ernaux)
+21. 蒙馬特遺書（邱妙津）
+22. A frozen woman (Annie Ernaux)

@@ -6,38 +6,13 @@
 </description>
         <link>http://localhost:4000/</link>
         <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sun, 25 Sep 2022 14:36:33 +0100</pubDate>
-        <lastBuildDate>Sun, 25 Sep 2022 14:36:33 +0100</lastBuildDate>
+        <pubDate>Sun, 25 Sep 2022 14:48:39 +0100</pubDate>
+        <lastBuildDate>Sun, 25 Sep 2022 14:48:39 +0100</lastBuildDate>
         <generator>Jekyll v4.2.2</generator>
         
             <item>
                 <title>Other things</title>
-                <description>&lt;h1 id=&quot;2022-theatre&quot;&gt;2022 Theatre&lt;/h1&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;a href=&quot;https://royalcourttheatre.com/whats-on/afightagainst/&quot;&gt;A Fight Against… (Una Lucha Contra…)&lt;/a&gt;, by Pablo Manzi. Translated by William Gregory. 15 January, at Jerwood Theatre Upstairs&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://royalcourttheatre.com/whats-on/theglow/&quot;&gt;The Glow&lt;/a&gt;, by Alistair McDowall. 5 February, at Jerwood Theatre Downstairs&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://royalcourttheatre.com/whats-on/purplesnowflakes/&quot;&gt;Purple Snowflakes and Witty Wanks&lt;/a&gt;, written and performed by Sarah Hanly. 5 February, at Jerwood Theatre Downstairs&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.lostdogdance.co.uk/currentproductions/ataleoftwocities&quot;&gt;A Tale of Two Cities&lt;/a&gt;, by Lost Dog. 16 February, at Warwick Arts Centre&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.oldvictheatre.com/stage/event/a-number&quot;&gt;A Number&lt;/a&gt;, by Carol Churchill. 19 March, at The Old Vic&lt;/li&gt;
-  &lt;li&gt;The Burnt City, by PunchDrunk. 10 April&lt;/li&gt;
-  &lt;li&gt;Prima Facie, by Suzie Miller, performed by Jodie Comer. 18 April, at Harold Pinter.&lt;/li&gt;
-  &lt;li&gt;The Burnt City, by PunchDrunk. 24 April&lt;/li&gt;
-  &lt;li&gt;The Burnt City, by PunchDrunk. 14 May&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.simonamstell.com&quot;&gt;Spirit Hole&lt;/a&gt;, written and performed by Simon Amstell. 15 May, at Warwick Arts Centre&lt;/li&gt;
-  &lt;li&gt;The Burnt City, by PunchDrunk. 21 May&lt;/li&gt;
-  &lt;li&gt;The Burnt City, by PunchDrunk. 22 May&lt;/li&gt;
-  &lt;li&gt;Concert by Hania Rani. 27 May, at KoKo&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.barbican.org.uk/whats-on/2022/event/gecko-the-wedding&quot;&gt;The Wedding&lt;/a&gt;, by Gecko. 7 June, at Barbican Centre&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://royalcourttheatre.com/whats-on/that-is-not-who-i-am/&quot;&gt;This Is Not Who I Am&lt;/a&gt;, by Dave Davidson (actually, Lucy Kirkwood). 18 June, at Jerwood Theatre Downstairs&lt;/li&gt;
-  &lt;li&gt;The Burnt City, by PunchDrunk. 19 June&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.wrightandgrainger.com&quot;&gt;THE GODS THE GODS THE GODS&lt;/a&gt;, by Grainger &amp;amp; Wright. 24 June at The Streatham Space Project&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.theplace.org.uk/whats-on/collective-cha-jinyeob-miin-body-body&quot;&gt;Miin: Body to Body&lt;/a&gt;, by Collective-A. 25 June, at The Place&lt;/li&gt;
-  &lt;li&gt;The Burnt City, by PunchDrunk. 3 July.&lt;/li&gt;
-  &lt;li&gt;The Burnt City, by PunchDrunk. 24 July.&lt;/li&gt;
-  &lt;li&gt;The Mousetrap, 70th anniversary production. 17 September, at St. Martin’s Theatre.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.arcolatheatre.com/whats-on/the-apology-2/&quot;&gt;The Apology&lt;/a&gt;, by Kyo Choi, directed by Ria Parry. 24 September, at The Arcola Theatre.&lt;/li&gt;
-&lt;/ol&gt;
+                <description>&lt;p&gt;&lt;a href=&quot;2022.md&quot;&gt;2022&lt;/a&gt;&lt;/p&gt;
 </description>
                 <pubDate>Sun, 25 Sep 2022 00:00:00 +0100</pubDate>
                 <link>http://localhost:4000/2022/09/25/Other-Things.html</link>
