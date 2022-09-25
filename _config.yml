@@ -36,7 +36,7 @@ navigation:
   - text: Other things
     url: "https://xpan-eileen.github.io/Other-Things"
   - text: Tags
-    url: /tags/
+    url: (tags.md)
 #  - text: Download
 #    url: https://github.com/JustGoodThemes/Scriptor-Jekyll-Theme
 
