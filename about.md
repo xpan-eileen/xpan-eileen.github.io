@@ -14,8 +14,9 @@ Good day! I am a second-year PhD student under the supervision of [Dr Adam Thoma
 
 **MPhil thesis:** [Groups of small order type](https://github.com/xpan-eileen/sotgrps_gap_pkg/blob/master/Thesis_Groups_of_small_order_type.pdf).
 
-**Publications:** Heiko Dietrich, Bettina Eick, and Xueyu Pan. Groups whose orders factorise into at most four primes. J. Symb. Comp. 108, 23-40 (2022). *[pdf](https://github.com/xpan-eileen/sotgrps_gap_pkg/blob/master/Dietrich%2C%20Eick%2C%20Pan%2C%202022.pdf)* (Complementary GAP package SOTGrps can be found [here](https://github.com/xpan-eileen/sotgrps_gap_pkg).)
+**Publications:** Heiko Dietrich, Bettina Eick, and Xueyu Pan. Groups whose orders factorise into at most four primes. J. Symb. Comp. 108, 23-40 (2022). *[pdf](https://github.com/xpan-eileen/sotgrps_gap_pkg/blob/master/Dietrich%2C%20Eick%2C%20Pan%2C%202022.pdf)*
+(Complementary GAP package SOTGrps can be found [here](https://github.com/xpan-eileen/sotgrps_gap_pkg).)
 
-**CV:** [CV.pdf](About%20myse%20ffeb5/CV.pdf)
+[CV.pdf]( {% pdf "/CV.pdf" %})
 
 I see myself as a mathsperson and feminist, but I have many other interests as well. I keep a brief journal of the books I have read and theatrical performances I have seen.
