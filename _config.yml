@@ -9,7 +9,7 @@
 lang: en-GB
 
 # Site title
-title: "Scriptor"
+title: "X. Eileen Pan"
 
 # A description of your site for meta tag, search engine results.
 description: "Hi there! I am Eileen and I am a PhD student in pure mathematics with a focus in algebra, in particular group theory.
@@ -33,7 +33,7 @@ navigation:
     url: /
   - text: About
     url: /about/
-  - text: Style Guide
+  - text: Archive
     url: /style-guide/
   - text: Tags
     url: /tags/
@@ -41,7 +41,7 @@ navigation:
 #    url: https://github.com/JustGoodThemes/Scriptor-Jekyll-Theme
 
 # The shortname for your Disqus site to enable comments.
-disqus: justgoodthemes
+#disqus: justgoodthemes
 
 # Colors
 accent_color: '#2d72d9'
