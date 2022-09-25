@@ -3,7 +3,7 @@ permalink: /about/
 layout: page
 title: About
 description:
-feature_image: images/about.jpg
+feature_image: images/about.jpeg
 ---
 
 # About myself
