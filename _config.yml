@@ -34,9 +34,9 @@ navigation:
   - text: About
     url: /about/
   - text: Other things
-    url: "https://xpan-eileen.github.io/Other-Things"
+    url: /other things/
   - text: Tags
-    url: (tags.md)
+    url: /tags/
 #  - text: Download
 #    url: https://github.com/JustGoodThemes/Scriptor-Jekyll-Theme
 

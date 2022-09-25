@@ -1,5 +1,6 @@
 ---
 layout: page
+permalink: /other things/
 title: "Other things"
 published: true
 description: "A place where I log the theatrical performances I have seen and books I have read."
