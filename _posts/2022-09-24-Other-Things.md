@@ -7,4 +7,4 @@ date: 2022-09-25
 tags: [logbook, others]
 ---
 
-[2022](2022-09-25-2022.md)
+[2022](https://xpan-eileen.github.io/2022)
