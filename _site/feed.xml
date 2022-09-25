@@ -6,8 +6,8 @@
 </description>
         <link>http://localhost:4000/</link>
         <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sun, 25 Sep 2022 18:22:50 +0100</pubDate>
-        <lastBuildDate>Sun, 25 Sep 2022 18:22:50 +0100</lastBuildDate>
+        <pubDate>Sun, 25 Sep 2022 18:27:23 +0100</pubDate>
+        <lastBuildDate>Sun, 25 Sep 2022 18:27:23 +0100</lastBuildDate>
         <generator>Jekyll v4.2.2</generator>
         
             <item>
@@ -78,6 +78,71 @@
                 <pubDate>Sun, 25 Sep 2022 00:00:00 +0100</pubDate>
                 <link>http://localhost:4000/2022books/</link>
                 <guid isPermaLink="true">http://localhost:4000/2022books/</guid>
+                
+                <category>logs</category>
+                
+                
+            </item>
+        
+            <item>
+                <title>2021 books</title>
+                <description>&lt;h2 id=&quot;academic&quot;&gt;&lt;strong&gt;Academic&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Richard Borcherds’ lecture series: Galois theory&lt;/li&gt;
+  &lt;li&gt;Richard Borcherds’ lecture series: algebraic geometry&lt;/li&gt;
+  &lt;li&gt;Richard Borcherds’ lecture series: introduction to homological algebra&lt;/li&gt;
+  &lt;li&gt;Topics in cohomology of groups, Chapter VI, Spectral sequences (Serge Lang)&lt;/li&gt;
+  &lt;li&gt;Examples of spectral sequences (Man Cheung &amp;amp; Yao-Rui) alert!: contains errors in the Heisenberg group example.&lt;/li&gt;
+  &lt;li&gt;Linear algebraic groups and finite groups of Lie type (Gunter Malle &amp;amp; Donna Testerman)&lt;/li&gt;
+  &lt;li&gt;Simple groups of Lie type (Roger W. Carter)&lt;/li&gt;
+  &lt;li&gt;Introduction to algebraic geometry (Brendan Hassett)&lt;/li&gt;
+  &lt;li&gt;Linear algebraic groups (James E. Humphreys)&lt;/li&gt;
+  &lt;li&gt;Character theory of finite groups of Lie type (Lecture series by Meinolf Geck)&lt;/li&gt;
+  &lt;li&gt;Representation theory of reductive algebraic groups-techniques and applications (Lecture series by Donna Testerman)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;nonacademic&quot;&gt;&lt;strong&gt;Nonacademic&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;The midnight library (Matt Haig)&lt;/li&gt;
+  &lt;li&gt;Trees, leaves, flowers &amp;amp; seeds (Sarah Jose)&lt;/li&gt;
+  &lt;li&gt;你的夏天還好嗎（金愛爛）&lt;/li&gt;
+  &lt;li&gt;Brief answers to big questions (Stephen Hawking)&lt;/li&gt;
+  &lt;li&gt;消失的13級台階（高野和明）&lt;/li&gt;
+  &lt;li&gt;The push (Ashley Audrain)&lt;/li&gt;
+  &lt;li&gt;Because they wanted to (Mary Gaitskill)&lt;/li&gt;
+  &lt;li&gt;My name is Lucy Barton (Elizabeth Strout)&lt;/li&gt;
+  &lt;li&gt;The bell jar (Sylvia Plath)&lt;/li&gt;
+  &lt;li&gt;Exhalation (Ted Chiang)&lt;/li&gt;
+  &lt;li&gt;My sister, the serial killer (Oyinkan Braithwaite)&lt;/li&gt;
+  &lt;li&gt;The street of crocodiles (Bruno Schulz)&lt;/li&gt;
+  &lt;li&gt;編舟記（三浦紫苑）&lt;/li&gt;
+  &lt;li&gt;Klara and the Sun（Kazuo Ishiguro 石黑一雄）&lt;/li&gt;
+  &lt;li&gt;Penpal (Dathan Auerbach)&lt;/li&gt;
+  &lt;li&gt;Troubling love (Elena Ferrante)&lt;/li&gt;
+  &lt;li&gt;赤地之戀（張愛玲）&lt;/li&gt;
+  &lt;li&gt;X+Y: a mathematician’s manifesto of rethinking gender (Eugenia Cheng)&lt;/li&gt;
+  &lt;li&gt;秧歌（張愛玲）&lt;/li&gt;
+  &lt;li&gt;It sounded better in my head (Nina Kenwood)&lt;/li&gt;
+  &lt;li&gt;反叛者（馬洛伊·山多爾）&lt;/li&gt;
+  &lt;li&gt;The ice palace (Tarjei Vesaas)&lt;/li&gt;
+  &lt;li&gt;Where the crawdads sing (Delia Owens)&lt;/li&gt;
+  &lt;li&gt;Agatha (Anne Cathrine Bowmann)&lt;/li&gt;
+  &lt;li&gt;Eggshell Skull (Bri Lee)&lt;/li&gt;
+  &lt;li&gt;克林索爾的最後夏天（黑塞）&lt;/li&gt;
+  &lt;li&gt;小行星掉在下午（沈大成）&lt;/li&gt;
+  &lt;li&gt;草莓、極光與火燄（西加奈子）&lt;/li&gt;
+  &lt;li&gt;鱷魚手記（邱妙津）&lt;/li&gt;
+  &lt;li&gt;Beautiful world, where are you (Sally Rooney)&lt;/li&gt;
+  &lt;li&gt;Prima Facie (Suzie Miller)&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+                <pubDate>Fri, 31 Dec 2021 00:00:00 +0000</pubDate>
+                <link>http://localhost:4000/2021books/</link>
+                <guid isPermaLink="true">http://localhost:4000/2021books/</guid>
                 
                 <category>logs</category>
                 
