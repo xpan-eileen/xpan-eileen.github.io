@@ -124,7 +124,7 @@ optgroup { font-weight: bold; }
 table { border-collapse: collapse; border-spacing: 0; }
 
 /* ========================================================================== 2. General ========================================================================== */
-html, button, input, select, textarea { font-family: "Lato", "Helvetica Neue", Helvetica, sans-serif; }
+html, button, input, select, textarea { font-family: "Noto Serif", Georgia, serif; }
 
 html { border: 15px solid #2d72d9; box-sizing: border-box; }
 
