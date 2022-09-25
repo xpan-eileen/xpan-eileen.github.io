@@ -35,7 +35,7 @@ navigation:
     url: /about/
   - text: Other things
     url: /other things/
-  - text: Tags
+  - text: Archives
     url: /tags/
 #  - text: Download
 #    url: https://github.com/JustGoodThemes/Scriptor-Jekyll-Theme

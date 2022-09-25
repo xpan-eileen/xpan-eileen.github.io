@@ -1,6 +1,6 @@
 ---
 layout: tags
 permalink: /tags/
-title: Tags
+title: Archives
 description: tags
 ---
