@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: default
 published: false
 title: Permutation groups notes
 tags: notes

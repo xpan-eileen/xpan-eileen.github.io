@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: default
 published: false
 title: Reading notes for myself
 tags: notes
@@ -14,7 +14,7 @@ For the Chevalley groups over fields with characteristic 2, see Cooperstein's 19
 
 ## Preliminaries
 
-First recall some notations from abstract group theory. We write $X.Y$ for an extension of $$X$$ by $Y$ ($X$ is normal in this extension). In particilar, $X:Y$ denotes split extensions and $X^.Y$ denotes nonxplit extensions. 
+First recall some notations from abstract group theory. We write $X.Y$ for an extension of $$X$$ by $Y$ ($X$ is normal in this extension). In particilar, $X:Y$ denotes split extensions and $X^.Y$ denotes nonxplit extensions.
 
 
 <!--more-->
