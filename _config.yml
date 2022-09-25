@@ -32,9 +32,9 @@ navigation:
   - text: Home
     url: /
   - text: About
-    url: href="/about/"
-  - text: Archive
-    url: /style-guide/
+    url: /about/
+  - text: Other things
+    url: "https://xpan-eileen.github.io/Other-Things"
   - text: Tags
     url: /tags/
 #  - text: Download
