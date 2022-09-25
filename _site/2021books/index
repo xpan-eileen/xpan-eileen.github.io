@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>2021 books</title>
+  <meta name="description" content="Hi there! I am Eileen and I am a PhD student in pure mathematics with a focus in algebra, in particular group theory.">
+  <link rel="canonical" href="http://localhost:4000/2021books/">
+  <link rel="alternate" type="application/rss+xml" title="X. Eileen Pan Feed"
+    href="http://localhost:4000/feed.xml">
+  
+  <!-- Styles -->
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i%7CNoto+Serif:400,400i,700,700i&display=swap" rel="stylesheet">
+  <link href="/assets/css/style.css" rel="stylesheet">
+</head>
+<body>
+
+  <div id="page" class="site">
+    <div class="inner">
+      <header class="site-header">
+  
+  <p class="site-title"><a class="logo-text" href="/">X. Eileen Pan</a></p>
+  
+  <nav class="site-navigation">
+    <div class="site-navigation-wrap">
+      <h2 class="screen-reader-text">Main navigation</h2>
+      <ul class="menu">
+        
+      </ul><!-- .menu -->
+      <button id="menu-close" class="menu-toggle"><span class="screen-reader-text">Close Menu</span><span
+          class="icon-close" aria-hidden="true"></span></button>
+    </div><!-- .site-navigation-wrap -->
+  </nav><!-- .site-navigation -->
+  <button id="menu-open" class="menu-toggle"><span class="screen-reader-text">Open Menu</span><span class="icon-menu" aria-hidden="true"></span></button>
+</header>
+
+
+      <main class="main-content fadeInDown delay_075s">
+
+  <article class="post">
+    <header class="post-header">
+      <time class="post-date" datetime=""></time>
+      <h1 class="post-title">2021 books</h1>
+      <div class="post-meta">
+        By <span class="post-author">Eileen Pan</span><span class="post-tags"> in <a href="/tags/#logs" rel="tag">logs</a></span>
+      </div><!-- .post-meta -->
+      
+    </header><!-- .post-header -->
+    <div class="post-content">
+      ## **Academic**
+
+1. Richard Borcherds’ lecture series: Galois theory
+2. Richard Borcherds’ lecture series: algebraic geometry
+3. Richard Borcherds’ lecture series: introduction to homological algebra
+4. Topics in cohomology of groups, Chapter VI, Spectral sequences (Serge Lang)
+5. Examples of spectral sequences (Man Cheung & Yao-Rui) alert!: contains errors in the Heisenberg group example.
+6. Linear algebraic groups and finite groups of Lie type (Gunter Malle & Donna Testerman)
+7. Simple groups of Lie type (Roger W. Carter)
+8. Introduction to algebraic geometry (Brendan Hassett)
+9. Linear algebraic groups (James E. Humphreys)
+10. Character theory of finite groups of Lie type (Lecture series by Meinolf Geck)
+11. Representation theory of reductive algebraic groups-techniques and applications (Lecture series by Donna Testerman)
+
+---
+
+## **Nonacademic**
+
+1. The midnight library (Matt Haig)
+2. Trees, leaves, flowers & seeds (Sarah Jose)
+3. 你的夏天還好嗎（金愛爛）
+4. Brief answers to big questions (Stephen Hawking)
+5. 消失的13級台階（高野和明）
+6. The push (Ashley Audrain)
+7. Because they wanted to (Mary Gaitskill)
+8. My name is Lucy Barton (Elizabeth Strout)
+9. The bell jar (Sylvia Plath)
+10. Exhalation (Ted Chiang)
+11. My sister, the serial killer (Oyinkan Braithwaite)
+12. The street of crocodiles (Bruno Schulz)
+13. 編舟記（三浦紫苑）
+14. Klara and the Sun（Kazuo Ishiguro 石黑一雄）
+15. Penpal (Dathan Auerbach)
+16. Troubling love (Elena Ferrante)
+17. 赤地之戀（張愛玲）
+18. X+Y: a mathematician's manifesto of rethinking gender (Eugenia Cheng)
+19. 秧歌（張愛玲）
+20. It sounded better in my head (Nina Kenwood)
+21. 反叛者（馬洛伊·山多爾）
+22. The ice palace (Tarjei Vesaas)
+23. Where the crawdads sing (Delia Owens)
+24. Agatha (Anne Cathrine Bowmann)
+25. Eggshell Skull (Bri Lee)
+26. 克林索爾的最後夏天（黑塞）
+27. 小行星掉在下午（沈大成）
+28. 草莓、極光與火燄（西加奈子）
+29. 鱷魚手記（邱妙津）
+30. Beautiful world, where are you (Sally Rooney)
+31. Prima Facie (Suzie Miller)
+
+    </div><!-- .post-content -->
+    <div class="post-share">
+      <span>Share:</span>
+      <a target="_blank"
+        href="https://twitter.com/intent/tweet?text=2021%20books&amp;url=http://localhost:4000/2021books/" rel="noopener">Twitter</a>
+      <a target="_blank"
+        href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/2021books/&amp;t=2021%20books" rel="noopener">Facebook</a>
+    </div><!-- .share-post -->
+    <div class="author-box">
+      
+      <div class="author-details">
+        <h2 class="author-title">About Eileen Pan</h2>
+        <div class="author-bio"><p>Maths PhD student and photographer</p>
+</div>
+        
+        
+      </div><!-- .author-details -->
+    </div><!-- .author-box -->
+  </article><!-- .post -->
+
+
+</main><!-- .main-content -->
+
+      <footer class="site-footer">
+  <div class="offsite-links">
+    
+  </div><!-- .offsite-links -->
+  <div class="footer-bottom">
+    <div class="site-info">
+      
+
+    </div><!-- .site-info -->
+    <a href="#page" id="back-to-top" class="back-to-top"><span class="screen-reader-text">Back to the top </span>&#8593;</a>
+  </div><!-- .footer-bottom -->
+</footer><!-- .site-footer -->
+
+    </div><!-- .inner -->
+  </div><!-- .site -->
+
+  <!-- Scripts -->
+
+  <script src="/assets/js/plugins.js"></script>
+  <script src="/assets/js/custom.js"></script>
+
+</body>
+</html>
