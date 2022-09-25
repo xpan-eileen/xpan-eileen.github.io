@@ -30,7 +30,7 @@ $font: (
 );
 
 // Palette.
-{% assign accent = site.accent_color | default: '#eab91a' %}
+{% assign accent = site.accent_color | default: '#eab91a' %} // should be yellow
 $palette: (
   accent:    {{ accent }},
   primary:   #6b747a, // grey
