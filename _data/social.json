@@ -10,5 +10,11 @@
       "icon": "fa-instagram",
       "url": "https://instagram.com/eileen.extended.by.35mm"
     }
+    ,
+    {
+      "title": "Email",
+      "icon": "fa-email",
+      "url": "eileen.pan@warwick.ac.uk"
+    }
   ]
 }
