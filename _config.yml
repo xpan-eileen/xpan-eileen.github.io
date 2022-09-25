@@ -15,6 +15,9 @@ title: "X. Eileen Pan"
 description: "Hi there! I am a PhD student in pure mathematics with a focus in algebra, in particular group theory.
 "
 
+#Excerpts for pages
+page_excerpts: true
+
 # The subpath of your site, e.g. /blog, for generating urls.
 baseurl: ""
 
@@ -23,9 +26,6 @@ url: #
 
 # Favicon
 favicon: images/favicon.png
-
-# Google Analytics id, e.g. "UA-NNNNNNNN-N"
-google_analytics: ""
 
 # Site navigation - each item must have a title and a url.
 navigation:
