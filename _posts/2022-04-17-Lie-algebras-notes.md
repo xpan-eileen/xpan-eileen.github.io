@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: post
 published: false
 title: Lie algebras notes
 tags: notes

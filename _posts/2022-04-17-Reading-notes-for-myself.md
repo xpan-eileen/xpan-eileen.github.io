@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 published: false
 title: Reading notes for myself
 tags: notes

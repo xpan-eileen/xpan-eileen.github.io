@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 published: false
 title: Permutation groups notes
 tags: notes
