@@ -13,7 +13,7 @@
     {
       "title": "Email",
       "icon": "fa-envelope",
-      "url": "eileen.pan@warwick.ac.uk"
+      < a href="mailto:john@example.com">John< /a>
     }
   ]
 }
