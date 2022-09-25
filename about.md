@@ -17,6 +17,6 @@ Good day! I am a second-year PhD student under the supervision of [Dr Adam Thoma
 **Publications:** Heiko Dietrich, Bettina Eick, and Xueyu Pan. Groups whose orders factorise into at most four primes. J. Symb. Comp. 108, 23-40 (2022). *[pdf](https://github.com/xpan-eileen/sotgrps_gap_pkg/blob/master/Dietrich%2C%20Eick%2C%20Pan%2C%202022.pdf)*
 (Complementary GAP package SOTGrps can be found [here](https://github.com/xpan-eileen/sotgrps_gap_pkg).)
 
-[CV.pdf](https://www.notion.so/About-myself-c778ab223b6c49e896b2b65e4296fa03#ffeb55809c704aca91ced9bd6c6e4c5f)
+[CV.pdf](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/88c8ac38-20ec-4684-8cab-b3ffd457e2a1/CV.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220925%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220925T153524Z&X-Amz-Expires=86400&X-Amz-Signature=cd1cfbce8ecd17683636833ddad8147233bad8afb87f1f553a4c9db9cfa96735&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22CV.pdf%22&x-id=GetObject)
 
 I see myself as a mathsperson and feminist, but I have many other interests as well. I keep a brief journal of the books I have read and theatrical performances I have seen.
