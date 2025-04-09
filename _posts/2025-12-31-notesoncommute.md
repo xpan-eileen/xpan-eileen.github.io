@@ -1,6 +1,6 @@
 ---
 layout: post
-permalink: /Notes from my commute/
+permalink: /Notesfrommycommute/
 published: true
 title: Notes from my commute
 tags: [logs, proses]
