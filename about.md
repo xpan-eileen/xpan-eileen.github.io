@@ -7,7 +7,7 @@ feature_image: images/about.jpeg
 ---
 
 
-Good day! I am a second-year PhD student under the supervision of [Dr Adam Thomas](https://warwick.ac.uk/fac/sci/maths/people/staff/thomas/) (Warwick) and [Dr Heiko Dietrich](https://users.monash.edu/~heikod/) (Monash) and am funded by the [Monash Warwick Alliance Joint PhD program](https://warwick.ac.uk/services/dc/policies_guidance/student_mobility/jointphd). My current project focuses on finite groups of Lie type with broad interests in the computational aspects, linear algebraic groups and representation theory for groups. You can find my academic CV <a href="https://xpan-eileen.github.io/documents/CV.pdf" target="_blank">here.</a>
+Good day! I am a PhD student under the supervision of [Dr Adam Thomas](https://warwick.ac.uk/fac/sci/maths/people/staff/thomas/) (Warwick) and [Dr Heiko Dietrich](https://users.monash.edu/~heikod/) (Monash) and am funded by the [Monash Warwick Alliance Joint PhD program](https://warwick.ac.uk/services/dc/policies_guidance/student_mobility/jointphd). My current project focuses on finite groups of Lie type with broad interests in the computational aspects, linear algebraic groups and representation theory for groups. 
 
 **Contact:** eileen.pan@warwick.ac.uk
 
