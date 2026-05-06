@@ -7,7 +7,7 @@ feature_image: images/about.jpeg
 ---
 
 
-Good day! I am a teaching fello at Monash University.
+Good day! I am a teaching fellow at Monash University.
 
 **Contact:** eileen.pan@monash.edu
 
