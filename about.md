@@ -21,7 +21,9 @@ Currently, I am working as an assistant lecturer at Monash University.
 
 **PhD thesis:** <a href="https://wrap.warwick.ac.uk/id/eprint/200733/" target="_blank">Some group actions in G2(q).</a>
 
-**Publications:** Heiko Dietrich, Bettina Eick, and Xueyu Pan. [Groups whose orders factorise into at most four primes](https://doi.org/10.1016/j.jsc.2021.04.005). J. Symb. Comp. 108, 23-40 (2022).
+**Publications:**
+- Pan, E. X. [A note on some quadratics and cubics over finite fields](https://www.cambridge.org/core/journals/bulletin-of-the-australian-mathematical-society/article/note-on-some-quadratics-and-cubics-over-finite-fields/6B2F227573881D91E17CD5B93028900E). Bulletin of the Australian Mathematical Society. 8 p. (2025)  
+- Heiko Dietrich, Bettina Eick, and Xueyu Pan. [Groups whose orders factorise into at most four primes](https://doi.org/10.1016/j.jsc.2021.04.005). J. Symb. Comp. 108, 23-40 (2022).
 - Complementary GAP package SOTGrps can be found [here](https://github.com/xpan-eileen/sotgrps_gap_pkg).
 
 
