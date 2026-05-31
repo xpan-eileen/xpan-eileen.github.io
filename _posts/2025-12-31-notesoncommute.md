@@ -3,7 +3,7 @@ layout: post
 permalink: /Notesfrommycommute/
 published: true
 title: Notes from my commute
-tags: [logs, proses]
+tags: [logs, prose]
 aside:
   toc: true
 mathjax: true
